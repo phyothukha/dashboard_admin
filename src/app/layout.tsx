@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Roboto_Flex } from "next/font/google";
 import "@/styles/globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import {
@@ -17,6 +17,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
+import { NavigationEvents } from "@/components/navigation-events";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,6 +26,11 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+const robotoFlex = Roboto_Flex({
+  variable: "--font-flex",
   subsets: ["latin"],
 });
 
@@ -41,8 +47,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${robotoFlex.variable} antialiased`}
       >
+        <NavigationEvents />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -71,7 +78,6 @@ export default function RootLayout({
                   </Breadcrumb>
                 </div>
               </header>
-
               <div className="flex items-center gap-2 p-4">{children}</div>
             </SidebarInset>
           </SidebarProvider>

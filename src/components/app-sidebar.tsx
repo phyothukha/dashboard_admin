@@ -142,7 +142,9 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <TeamSwitcher teams={data.teams} />
       </SidebarHeader>
       <SidebarContent>
-        <NavMain items={navLinks} />
+        {navLinks.map((nav, index) => (
+          <NavMain items={nav.mainNavGroup} title={nav.title} key={index} />
+        ))}
       </SidebarContent>
       <SidebarFooter>
         <NavUser user={data.user} />

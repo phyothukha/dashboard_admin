@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/collapsible";
 import {
   SidebarGroup,
+  SidebarGroupLabel,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
@@ -30,7 +31,13 @@ import {
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
-export function NavMain({ items }: { items: NavLinkType[] }) {
+export function NavMain({
+  items,
+  title,
+}: {
+  items: NavLinkType[];
+  title?: string;
+}) {
   const { setOpenMobile, state } = useSidebar();
   const href = usePathname();
 
@@ -46,6 +53,8 @@ export function NavMain({ items }: { items: NavLinkType[] }) {
   }
   return (
     <SidebarGroup>
+      {title && <SidebarGroupLabel>{title}</SidebarGroupLabel>}
+
       <SidebarMenu>
         {items.map((item) => {
           if (!item.navGroup) {
@@ -54,9 +63,12 @@ export function NavMain({ items }: { items: NavLinkType[] }) {
                 <SidebarMenuButton asChild>
                   <Link
                     href={item.url}
-                    className={`${checkIsActive(href, item) ? "bg-secondary text-primary" : ""}`}
+                    className={cn(
+                      checkIsActive(href, item) && " bg-secondary text-primary",
+                      "text-[15px]  px-4 py-2.5 gap-2 font-medium flex items-center rounded-lg transition-colors",
+                    )}
                   >
-                    {item.icon && <item.icon />}
+                    {item.icon && <item.icon className="w-5 h-5" />}
                     <span>{item.name}</span>
                   </Link>
                 </SidebarMenuButton>
@@ -73,15 +85,15 @@ export function NavMain({ items }: { items: NavLinkType[] }) {
               >
                 <SidebarMenuItem>
                   <CollapsibleTrigger asChild>
-                    <SidebarMenuButton tooltip={item.name}>
+                    <SidebarMenuButton
+                      tooltip={item.name}
+                      className={cn(
+                        checkIsActive(href, item) && " !text-primary",
+                        "text-[15px]  px-4 py-2.5 gap-2 font-medium flex items-center rounded-lg transition-colors",
+                      )}
+                    >
                       {item.icon && <item.icon />}
-                      <span
-                        className={cn(
-                          checkIsActive(href, item) && " !text-primary",
-                        )}
-                      >
-                        {item.name}
-                      </span>
+                      <span>{item.name}</span>
                       <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />
                     </SidebarMenuButton>
                   </CollapsibleTrigger>
@@ -93,9 +105,15 @@ export function NavMain({ items }: { items: NavLinkType[] }) {
                             <Link
                               href={subItem.url}
                               onClick={() => setOpenMobile(false)}
-                              className={`${checkIsActive(href, subItem) ? " bg-secondary  !text-primary" : ""}`}
+                              className={cn(
+                                checkIsActive(href, subItem) &&
+                                  "bg-secondary text-primary",
+                                "text-[14px] font-medium px-4 py-2.5 flex items-center gap-2 rounded-md transition-colors",
+                              )}
                             >
-                              {/* {subItem.icon && <subItem.icon />} */}
+                              {subItem.icon && (
+                                <subItem.icon className="w-4 h-4" />
+                              )}
                               <span>{subItem.name}</span>
                             </Link>
                           </SidebarMenuSubButton>
@@ -127,9 +145,14 @@ export function NavMain({ items }: { items: NavLinkType[] }) {
                     <DropdownMenuItem key={`${sub.name}-${sub.url}`} asChild>
                       <Link
                         href={sub.url}
-                        className={`${checkIsActive(href, sub) ? "bg-secondary text-primary" : ""}`}
+                        className={cn(
+                          checkIsActive(href, sub)
+                            ? "bg-secondary text-primary"
+                            : "",
+                          "text-[14px] px-3 py-2 flex items-center gap-2 rounded-md transition-colors",
+                        )}
                       >
-                        {sub.icon && <sub.icon />}
+                        {sub.icon && <sub.icon className="w-4 h-4" />}
                         <span className="max-w-52 text-wrap">{sub.name}</span>
                       </Link>
                     </DropdownMenuItem>
