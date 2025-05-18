@@ -27,7 +27,6 @@ export interface MainNavLinkType {
 
 export const navLinks: MainNavLinkType[] = [
   {
-    // title: "Content",
     mainNavGroup: [
       {
         name: "Dashboard",
@@ -203,7 +202,7 @@ export const navLinks: MainNavLinkType[] = [
       {
         name: "Genre",
         icon: LayoutPanelTop,
-        url: "/genre",
+        url: "/genres",
       },
       {
         name: "Tags",

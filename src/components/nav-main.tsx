@@ -60,14 +60,14 @@ export function NavMain({
           if (!item.navGroup) {
             return (
               <SidebarMenuItem key={item.name}>
-                <SidebarMenuButton asChild>
-                  <Link
-                    href={item.url}
-                    className={cn(
-                      checkIsActive(href, item) && " bg-secondary text-primary",
-                      "text-[15px]  px-4 py-2.5 gap-2 font-medium flex items-center rounded-lg transition-colors",
-                    )}
-                  >
+                <SidebarMenuButton
+                  asChild
+                  className={cn(
+                    checkIsActive(href, item) && " bg-secondary !text-primary",
+                    "text-[15px]  px-4 py-2.5 gap-2 font-medium flex items-center rounded-lg transition-colors",
+                  )}
+                >
+                  <Link href={item.url}>
                     {item.icon && <item.icon className="w-5 h-5" />}
                     <span>{item.name}</span>
                   </Link>
@@ -101,19 +101,18 @@ export function NavMain({
                     <SidebarMenuSub>
                       {item.navGroup.map((subItem) => (
                         <SidebarMenuSubItem key={subItem.name}>
-                          <SidebarMenuSubButton asChild>
+                          <SidebarMenuSubButton
+                            asChild
+                            className={cn(
+                              checkIsActive(href, subItem) && "bg-secondary",
+                              "text-[14px] font-medium px-4 py-2.5 flex items-center gap-2 rounded-md transition-colors",
+                            )}
+                          >
                             <Link
                               href={subItem.url}
                               onClick={() => setOpenMobile(false)}
-                              className={cn(
-                                checkIsActive(href, subItem) &&
-                                  "bg-secondary text-primary",
-                                "text-[14px] font-medium px-4 py-2.5 flex items-center gap-2 rounded-md transition-colors",
-                              )}
                             >
-                              {subItem.icon && (
-                                <subItem.icon className="w-4 h-4" />
-                              )}
+                              {subItem.icon && <subItem.icon />}
                               <span>{subItem.name}</span>
                             </Link>
                           </SidebarMenuSubButton>
@@ -131,7 +130,10 @@ export function NavMain({
                 <DropdownMenuTrigger asChild>
                   <SidebarMenuButton
                     tooltip={item.name}
-                    isActive={checkIsActive(href, item)}
+                    className={cn(
+                      checkIsActive(href, item) &&
+                        " bg-secondary !text-primary",
+                    )}
                   >
                     {item.icon && <item.icon />}
                     <span>{item.name}</span>
@@ -142,16 +144,15 @@ export function NavMain({
                   <DropdownMenuLabel>{item.name}</DropdownMenuLabel>
                   <DropdownMenuSeparator />
                   {item.navGroup.map((sub) => (
-                    <DropdownMenuItem key={`${sub.name}-${sub.url}`} asChild>
-                      <Link
-                        href={sub.url}
-                        className={cn(
-                          checkIsActive(href, sub)
-                            ? "bg-secondary text-primary"
-                            : "",
-                          "text-[14px] px-3 py-2 flex items-center gap-2 rounded-md transition-colors",
-                        )}
-                      >
+                    <DropdownMenuItem
+                      key={`${sub.name}-${sub.url}`}
+                      asChild
+                      className={cn(
+                        checkIsActive(href, sub) && "bg-secondary",
+                        "text-[14px] px-3 py-2 flex items-center gap-2 rounded-md transition-colors",
+                      )}
+                    >
+                      <Link href={sub.url}>
                         {sub.icon && <sub.icon className="w-4 h-4" />}
                         <span className="max-w-52 text-wrap">{sub.name}</span>
                       </Link>
