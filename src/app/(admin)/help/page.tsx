@@ -23,7 +23,7 @@ const HelpPage = async () => {
 
   return (
     <>
-      <div className=" h-full flex-1 flex-col space-y-8  ">
+      <div className=" w-full h-full flex-1 flex-col space-y-8  ">
         <div className="flex items-center justify-between space-y-2">
           <div>
             <h2 className="text-2xl font-bold tracking-tight">Welcome back!</h2>
@@ -35,6 +35,7 @@ const HelpPage = async () => {
             <UserNav />
           </div>
         </div>
+
         <DataTable data={tasks} columns={columns} />
       </div>
     </>

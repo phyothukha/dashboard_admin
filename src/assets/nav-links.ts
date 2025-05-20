@@ -50,6 +50,7 @@ export const navLinks: MainNavLinkType[] = [
           },
         ],
       },
+
       {
         name: "Profile",
         icon: User,
