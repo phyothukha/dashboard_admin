@@ -61,6 +61,9 @@ importers:
       "@radix-ui/react-tooltip":
         specifier: ^1.2.6
         version: 1.2.6(@types/react-dom@19.1.5(@types/react@19.1.4))(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      "@tabler/icons-react":
+        specifier: ^3.33.0
+        version: 3.33.0(react@19.1.0)
       "@tanstack/react-table":
         specifier: ^8.21.3
         version: 8.21.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -100,6 +103,9 @@ importers:
       tailwind-merge:
         specifier: ^3.3.0
         version: 3.3.0
+      zod:
+        specifier: ^3.25.20
+        version: 3.25.20
     devDependencies:
       "@eslint/eslintrc":
         specifier: ^3
@@ -1276,6 +1282,20 @@ packages:
     resolution:
       {
         integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==,
+      }
+
+  "@tabler/icons-react@3.33.0":
+    resolution:
+      {
+        integrity: sha512-ay+HDecCjmFl25Lg14hcl59ffSjnOcgfrlV14shu8Qjbz+Xh4LRus93DuoyLQte8YSxE7Pe5gnEz6OF0GtwNtw==,
+      }
+    peerDependencies:
+      react: ">= 16"
+
+  "@tabler/icons@3.33.0":
+    resolution:
+      {
+        integrity: sha512-NZeFfzcYe7xcBHR3zKoCSrw/cFWvfj6LjenPQ48yVMTGdX854HH9nH44ZfMH8rrDzHBllfjwl4CIX6Vh2tyN0Q==,
       }
 
   "@tailwindcss/node@4.1.6":
@@ -4696,10 +4716,10 @@ packages:
     peerDependencies:
       zod: ^3.24.1
 
-  zod@3.24.4:
+  zod@3.25.20:
     resolution:
       {
-        integrity: sha512-OdqJE9UDRPwWsrHjLN2F8bPxvwJBK22EHLWtanu0LSYr5YqzsaaW3RMgmjwr8Rypg5k+meEJdSPXJZXE/yqOMg==,
+        integrity: sha512-z03fqpTMDF1G02VLKUMt6vyACE7rNWkh3gpXVHgPTw28NPtDFRGvcpTtPwn2kMKtQ0idtYJUTxchytmnqYswcw==,
       }
 
 snapshots:
@@ -4945,8 +4965,8 @@ snapshots:
       express-rate-limit: 7.5.0(express@5.1.0)
       pkce-challenge: 5.0.0
       raw-body: 3.0.0
-      zod: 3.24.4
-      zod-to-json-schema: 3.24.5(zod@3.24.4)
+      zod: 3.25.20
+      zod-to-json-schema: 3.24.5(zod@3.25.20)
     transitivePeerDependencies:
       - supports-color
 
@@ -5451,6 +5471,13 @@ snapshots:
   "@swc/helpers@0.5.15":
     dependencies:
       tslib: 2.8.1
+
+  "@tabler/icons-react@3.33.0(react@19.1.0)":
+    dependencies:
+      "@tabler/icons": 3.33.0
+      react: 19.1.0
+
+  "@tabler/icons@3.33.0": {}
 
   "@tailwindcss/node@4.1.6":
     dependencies:
@@ -6362,7 +6389,7 @@ snapshots:
       minimatch: 3.1.2
       natural-compare: 1.4.0
       optionator: 0.9.4
-      zod: 3.24.4
+      zod: 3.25.20
     optionalDependencies:
       jiti: 2.4.2
     transitivePeerDependencies:
@@ -7734,8 +7761,8 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod-to-json-schema@3.24.5(zod@3.24.4):
+  zod-to-json-schema@3.24.5(zod@3.25.20):
     dependencies:
-      zod: 3.24.4
+      zod: 3.25.20
 
-  zod@3.24.4: {}
+  zod@3.25.20: {}

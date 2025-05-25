@@ -3,10 +3,9 @@ import { Geist, Geist_Mono, Roboto_Flex } from "next/font/google";
 import "@/styles/globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
-import { AppSidebar } from "@/components/app-sidebar";
-
+import { AppSidebar } from "@/layout/app-sidebar";
+import AppHeader from "@/layout/app-header";
 import { NavigationEvents } from "@/components/navigation-events";
-import AppHeader from "@/components/app-header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,7 +40,7 @@ export default function RootLayout({
         <NavigationEvents />
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="light"
           enableSystem
           disableTransitionOnChange
         >

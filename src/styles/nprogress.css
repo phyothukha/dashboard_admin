@@ -3,7 +3,7 @@
 }
 
 #nprogress .bar {
-  background: oklch(0.795 0.184 86.047);
+  background: oklch(0.623 0.214 259.815);
   position: fixed;
   z-index: 9999;
   top: 0;

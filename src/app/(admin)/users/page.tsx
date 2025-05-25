@@ -1,8 +1,9 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { z } from "zod";
-import { columns } from "./components/column";
+import React from "react";
 import { DataTable } from "@/components/data-table";
+import { columns } from "./components/column";
 import { taskSchema } from "@/data/schema";
 
 async function getTasks() {
@@ -15,16 +16,15 @@ async function getTasks() {
   return z.array(taskSchema).parse(tasks);
 }
 
-const HelpPage = async () => {
+const UserPage = async () => {
   const tasks = await getTasks();
-
   return (
     <main className=" w-full h-full flex-1 flex-col space-y-5 mt-5 ">
       <div className="flex items-center justify-between space-y-2">
         <div>
-          <h2 className="text-2xl font-bold tracking-tight">Welcome back!</h2>
+          <h2 className="text-2xl font-bold tracking-tight">User Lists</h2>
           <p className="text-muted-foreground">
-            Here&apos;s a list of your tasks for this month!
+            Manage your users and their roles here.
           </p>
         </div>
       </div>
@@ -34,4 +34,4 @@ const HelpPage = async () => {
   );
 };
 
-export default HelpPage;
+export default UserPage;

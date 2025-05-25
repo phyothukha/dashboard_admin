@@ -14,9 +14,7 @@ const TagPage = () => {
           </p>
         </div>
       </div>
-      {/* <div className="-mx-4 flex-1 overflow-auto  py-1 lg:flex-row lg:space-y-0 lg:space-x-12"> */}
       <DataTable data={data} />
-      {/* </div> */}
     </div>
   );
 };

@@ -27,7 +27,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "./ui/dropdown-menu";
+} from "@/components/ui/dropdown-menu";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
@@ -64,7 +64,7 @@ export function NavMain({
                   asChild
                   className={cn(
                     checkIsActive(href, item) && " bg-secondary !text-primary",
-                    "text-[15px]  px-4 py-2.5 gap-2 font-medium flex items-center rounded-lg transition-colors",
+                    "text-[15px]  px-4 py-2.5 gap-2  flex items-center rounded-lg transition-colors",
                   )}
                 >
                   <Link href={item.url}>
@@ -89,7 +89,7 @@ export function NavMain({
                       tooltip={item.name}
                       className={cn(
                         checkIsActive(href, item) && " !text-primary",
-                        "text-[15px]  px-4 py-2.5 gap-2 font-medium flex items-center rounded-lg transition-colors",
+                        "text-[15px]  px-4 py-2.5 gap-2  flex items-center rounded-lg transition-colors",
                       )}
                     >
                       {item.icon && <item.icon />}
@@ -105,7 +105,7 @@ export function NavMain({
                             asChild
                             className={cn(
                               checkIsActive(href, subItem) && "bg-secondary",
-                              "text-[14px] font-medium px-4 py-2.5 flex items-center gap-2 rounded-md transition-colors",
+                              "text-[14px]  px-4 py-2.5 flex items-center gap-2 rounded-md transition-colors",
                             )}
                           >
                             <Link

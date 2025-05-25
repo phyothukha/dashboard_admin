@@ -1,10 +1,11 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { z } from "zod";
-import { columns } from "./components/column";
-import { DataTable } from "@/components/data-table";
 import { taskSchema } from "@/data/schema";
+import { DataTable } from "@/components/data-table";
+import { columns } from "./components/column";
 
+// Simulate a database read for tasks.
 async function getTasks() {
   const data = await fs.readFile(
     path.join(process.cwd(), "./src/data/tasks.json"),
@@ -15,23 +16,22 @@ async function getTasks() {
   return z.array(taskSchema).parse(tasks);
 }
 
-const HelpPage = async () => {
+const TasksPage = async () => {
   const tasks = await getTasks();
 
   return (
     <main className=" w-full h-full flex-1 flex-col space-y-5 mt-5 ">
       <div className="flex items-center justify-between space-y-2">
         <div>
-          <h2 className="text-2xl font-bold tracking-tight">Welcome back!</h2>
+          <h2 className="text-2xl font-bold tracking-tight">All Tasks</h2>
           <p className="text-muted-foreground">
             Here&apos;s a list of your tasks for this month!
           </p>
         </div>
       </div>
-
       <DataTable data={tasks} columns={columns} />
     </main>
   );
 };
 
-export default HelpPage;
+export default TasksPage;

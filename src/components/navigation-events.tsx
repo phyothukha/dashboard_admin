@@ -11,6 +11,7 @@ export function NavigationEvents() {
 
   useEffect(() => {
     NProgress.start();
+    NProgress.configure({ showSpinner: false });
 
     const timer = setTimeout(() => {
       NProgress.done();

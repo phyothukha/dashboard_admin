@@ -11,7 +11,10 @@ import { Overview } from "./components/overview";
 
 export default function Dashboard() {
   return (
-    <>
+    <main className=" w-full h-full flex-1 flex-col space-y-5 ">
+      <div className="flex items-center justify-between space-y-2">
+        <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
+      </div>
       <Tabs
         orientation="vertical"
         defaultValue="overview"
@@ -158,6 +161,6 @@ export default function Dashboard() {
           </div>
         </TabsContent>
       </Tabs>
-    </>
+    </main>
   );
 }
