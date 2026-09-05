@@ -2,7 +2,7 @@
 
 import { DataTable } from "@/components/data-table";
 import { Project } from "@/data/schema";
-import { projectStatuses } from "@/data/features-data";
+import { projectStatuses, mapOptions } from "@/data/features-data";
 import { columns } from "./column";
 
 export function ProjectsTable({ data }: { data: Project[] }) {
@@ -15,7 +15,11 @@ export function ProjectsTable({ data }: { data: Project[] }) {
       itemLabel="Projects"
       addNewLabel="Add New Project"
       filters={[
-        { column: "status", title: "Status", options: projectStatuses },
+        {
+          column: "status",
+          title: "Status",
+          options: mapOptions(projectStatuses),
+        },
       ]}
     />
   );

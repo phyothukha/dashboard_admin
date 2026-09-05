@@ -31,12 +31,12 @@ const goals = Array.from({ length: 32 }, () => {
   return {
     id: faker.string.uuid(),
     title: faker.company.catchPhrase(),
-    category: faker.helpers.arrayElement(goalCategories).value,
+    category: faker.helpers.arrayElement([...goalCategories.keys()]),
     ownerName: owner.name,
     ownerAvatar: owner.avatar,
     progress: faker.number.int({ min: 0, max: 100 }),
     targetDate: faker.date.soon({ days: 90 }).toISOString(),
-    status: faker.helpers.arrayElement(goalStatuses).value,
+    status: faker.helpers.arrayElement([...goalStatuses.keys()]),
   };
 });
 
@@ -45,9 +45,9 @@ const apps = Array.from({ length: 28 }, () => ({
   id: faker.string.uuid(),
   name: faker.company.name(),
   icon: faker.image.urlPicsumPhotos({ width: 80, height: 80 }),
-  category: faker.helpers.arrayElement(appCategories).value,
+  category: faker.helpers.arrayElement([...appCategories.keys()]),
   developer: faker.company.name(),
-  status: faker.helpers.arrayElement(appStatuses).value,
+  status: faker.helpers.arrayElement([...appStatuses.keys()]),
   rating: faker.number.float({ min: 3, max: 5, fractionDigits: 1 }),
   installs: faker.number.int({ min: 120, max: 980_000 }),
 }));
@@ -61,8 +61,8 @@ const chats = Array.from({ length: 36 }, () => {
     contactAvatar: contact.avatar,
     lastMessage: faker.lorem.sentence({ min: 4, max: 10 }),
     unreadCount: faker.number.int({ min: 0, max: 12 }),
-    channel: faker.helpers.arrayElement(chatChannels).value,
-    status: faker.helpers.arrayElement(chatStatuses).value,
+    channel: faker.helpers.arrayElement([...chatChannels.keys()]),
+    status: faker.helpers.arrayElement([...chatStatuses.keys()]),
     lastActiveAt: faker.date.recent({ days: 14 }).toISOString(),
   };
 });
@@ -71,7 +71,7 @@ const chats = Array.from({ length: 36 }, () => {
 const calendarEvents = Array.from({ length: 40 }, () => ({
   id: faker.string.uuid(),
   title: faker.company.catchPhrase(),
-  type: faker.helpers.arrayElement(calendarEventTypes).value,
+  type: faker.helpers.arrayElement([...calendarEventTypes.keys()]),
   date: faker.date.soon({ days: 45 }).toISOString(),
   attendees: faker.number.int({ min: 1, max: 24 }),
   location: faker.helpers.arrayElement([
@@ -81,7 +81,7 @@ const calendarEvents = Array.from({ length: 40 }, () => ({
     "Google Meet",
     "HQ Auditorium",
   ]),
-  status: faker.helpers.arrayElement(calendarEventStatuses).value,
+  status: faker.helpers.arrayElement([...calendarEventStatuses.keys()]),
 }));
 
 // Products
@@ -89,10 +89,10 @@ const products = Array.from({ length: 44 }, () => ({
   id: faker.string.uuid(),
   name: faker.commerce.productName(),
   thumbnail: faker.image.urlPicsumPhotos({ width: 400, height: 225 }),
-  category: faker.helpers.arrayElement(productCategories).value,
+  category: faker.helpers.arrayElement([...productCategories.keys()]),
   price: faker.number.float({ min: 9, max: 899, fractionDigits: 2 }),
   stock: faker.number.int({ min: 0, max: 500 }),
-  status: faker.helpers.arrayElement(productStatuses).value,
+  status: faker.helpers.arrayElement([...productStatuses.keys()]),
   sales: faker.number.int({ min: 0, max: 12_000 }),
 }));
 
@@ -107,7 +107,7 @@ const projects = Array.from({ length: 26 }, () => {
     ),
     ownerName: owner.name,
     ownerAvatar: owner.avatar,
-    status: faker.helpers.arrayElement(projectStatuses).value,
+    status: faker.helpers.arrayElement([...projectStatuses.keys()]),
     progress: faker.number.int({ min: 0, max: 100 }),
     dueDate: faker.date.soon({ days: 120 }).toISOString(),
     teamSize: faker.number.int({ min: 2, max: 18 }),

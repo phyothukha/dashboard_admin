@@ -67,6 +67,9 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "pnpm": {
+    "onlyBuiltDependencies": [
+      "unrs-resolver"
+    ],
     "overrides": {
       "postcss": "8.5.28",
       "nanoid": "3.3.18",

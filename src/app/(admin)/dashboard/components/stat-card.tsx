@@ -33,7 +33,9 @@ export function StatCard({
           <span
             className={cn(
               "inline-flex items-center gap-0.5 rounded-full px-1.5 py-0.5 text-xs font-medium",
-              isPositive ? statusTone.success : statusTone.danger,
+              isPositive
+                ? statusTone.get("success")!
+                : statusTone.get("danger")!,
             )}
           >
             {isPositive ? (

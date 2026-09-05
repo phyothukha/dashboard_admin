@@ -73,7 +73,7 @@ export const columns: ColumnDef<UserRow>[] = [
       <DataTableColumnHeader column={column} title="Role" />
     ),
     cell: ({ row }) => {
-      const role = userRoles.find((r) => r.value === row.getValue("role"));
+      const role = userRoles.get(row.getValue("role") as string);
       return (
         <span className="capitalize">
           {role?.label ?? row.getValue("role")}
@@ -100,9 +100,7 @@ export const columns: ColumnDef<UserRow>[] = [
       <DataTableColumnHeader column={column} title="Status" />
     ),
     cell: ({ row }) => {
-      const status = userStatuses.find(
-        (s) => s.value === row.getValue("status"),
-      );
+      const status = userStatuses.get(row.getValue("status") as string);
       if (!status) return null;
       return (
         <Badge
@@ -132,13 +130,11 @@ export const columns: ColumnDef<UserRow>[] = [
       <DataTableColumnHeader column={column} title="Source" />
     ),
     cell: ({ row }) => {
-      const source = userSources.find(
-        (s) => s.value === row.getValue("source"),
-      );
+      const source = userSources.get(row.getValue("source") as string);
       if (!source) return null;
       return (
         <div className="flex items-center gap-1.5">
-          <source.icon className="size-4" />
+          {source.icon && <source.icon className="size-4" />}
           <span>{source.label}</span>
         </div>
       );

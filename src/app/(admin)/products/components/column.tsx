@@ -64,8 +64,8 @@ export const columns: ColumnDef<Product>[] = [
       <DataTableColumnHeader column={column} title="Category" />
     ),
     cell: ({ row }) => {
-      const category = productCategories.find(
-        (c) => c.value === row.getValue("category"),
+      const category = productCategories.get(
+        row.getValue("category") as string,
       );
       return <Badge variant="outline">{category?.label}</Badge>;
     },
@@ -94,9 +94,7 @@ export const columns: ColumnDef<Product>[] = [
       <DataTableColumnHeader column={column} title="Status" />
     ),
     cell: ({ row }) => {
-      const status = productStatuses.find(
-        (s) => s.value === row.getValue("status"),
-      );
+      const status = productStatuses.get(row.getValue("status") as string);
       if (!status) return null;
       return (
         <Badge

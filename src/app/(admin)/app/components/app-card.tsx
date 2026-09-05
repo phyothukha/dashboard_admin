@@ -9,8 +9,8 @@ import { cn } from "@/lib/utils";
 
 export function AppCard({ row }: { row: Row<App> }) {
   const app = row.original;
-  const category = appCategories.find((c) => c.value === app.category);
-  const status = appStatuses.find((s) => s.value === app.status);
+  const category = appCategories.get(app.category);
+  const status = appStatuses.get(app.status);
 
   return (
     <div className="flex flex-col gap-3 rounded-xl border bg-card p-4">

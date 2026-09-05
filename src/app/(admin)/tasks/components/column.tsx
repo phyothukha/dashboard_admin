@@ -48,7 +48,7 @@ export const columns: ColumnDef<Task>[] = [
       <DataTableColumnHeader column={column} title="Title" />
     ),
     cell: ({ row }) => {
-      const label = labels.find((label) => label.value === row.original.label);
+      const label = labels.get(row.original.label);
 
       return (
         <div className="flex space-x-2">
@@ -66,9 +66,7 @@ export const columns: ColumnDef<Task>[] = [
       <DataTableColumnHeader column={column} title="Status" />
     ),
     cell: ({ row }) => {
-      const status = statuses.find(
-        (status) => status.value === row.getValue("status"),
-      );
+      const status = statuses.get(row.getValue("status") as string);
 
       if (!status) {
         return null;
@@ -93,9 +91,7 @@ export const columns: ColumnDef<Task>[] = [
       <DataTableColumnHeader column={column} title="Priority" />
     ),
     cell: ({ row }) => {
-      const priority = priorities.find(
-        (priority) => priority.value === row.getValue("priority"),
-      );
+      const priority = priorities.get(row.getValue("priority") as string);
 
       if (!priority) {
         return null;

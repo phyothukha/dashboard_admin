@@ -18,9 +18,9 @@ function initials(name: string) {
 
 export function UserCard({ row }: { row: Row<UserRow> }) {
   const user = row.original;
-  const status = userStatuses.find((s) => s.value === user.status);
-  const role = userRoles.find((r) => r.value === user.role);
-  const source = userSources.find((s) => s.value === user.source);
+  const status = userStatuses.get(user.status);
+  const role = userRoles.get(user.role);
+  const source = userSources.get(user.source);
 
   return (
     <div className="flex flex-col gap-3 rounded-xl border bg-card p-4">
@@ -50,7 +50,7 @@ export function UserCard({ row }: { row: Row<UserRow> }) {
         <span className="capitalize">{role?.label}</span>
         {source && (
           <div className="flex items-center gap-1.5">
-            <source.icon className="size-3.5" />
+            {source.icon && <source.icon className="size-3.5" />}
             <span>{source.label}</span>
           </div>
         )}

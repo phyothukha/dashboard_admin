@@ -82,7 +82,7 @@ export function TotalProfitCard() {
           <span
             className={cn(
               "inline-flex items-center gap-0.5 rounded-full px-1.5 py-0.5 text-xs font-medium",
-              statusTone.success,
+              statusTone.get("success")!,
             )}
           >
             <ArrowUp className="size-3" />

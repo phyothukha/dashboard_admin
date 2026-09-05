@@ -113,8 +113,8 @@ export function BestSellingProducts() {
                   className={cn(
                     "text-sm font-medium",
                     product.revenueUp
-                      ? statusTextTone.success
-                      : statusTextTone.danger,
+                      ? statusTextTone.get("success")!
+                      : statusTextTone.get("danger")!,
                   )}
                 >
                   ${product.revenue.toLocaleString()}

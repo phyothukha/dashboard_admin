@@ -66,9 +66,7 @@ export const columns: ColumnDef<CalendarEvent>[] = [
       <DataTableColumnHeader column={column} title="Type" />
     ),
     cell: ({ row }) => {
-      const type = calendarEventTypes.find(
-        (t) => t.value === row.getValue("type"),
-      );
+      const type = calendarEventTypes.get(row.getValue("type") as string);
       return <Badge variant="outline">{type?.label}</Badge>;
     },
     filterFn: (row, id, value) => value.includes(row.getValue(id)),
@@ -115,8 +113,8 @@ export const columns: ColumnDef<CalendarEvent>[] = [
       <DataTableColumnHeader column={column} title="Status" />
     ),
     cell: ({ row }) => {
-      const status = calendarEventStatuses.find(
-        (s) => s.value === row.getValue("status"),
+      const status = calendarEventStatuses.get(
+        row.getValue("status") as string,
       );
       if (!status) return null;
       return (

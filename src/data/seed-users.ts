@@ -13,9 +13,9 @@ const users = Array.from({ length: 87 }, () => {
     name: `${firstName} ${lastName}`,
     email: faker.internet.email({ firstName, lastName }).toLowerCase(),
     avatar: faker.image.avatarGitHub(),
-    role: faker.helpers.arrayElement(userRoles).value,
-    status: faker.helpers.arrayElement(userStatuses).value,
-    source: faker.helpers.arrayElement(userSources).value,
+    role: faker.helpers.arrayElement([...userRoles.keys()]),
+    status: faker.helpers.arrayElement([...userStatuses.keys()]),
+    source: faker.helpers.arrayElement([...userSources.keys()]),
     lastActive: faker.date.recent({ days: 30 }).toISOString(),
     createdAt: faker.date.past({ years: 1 }).toISOString(),
   };

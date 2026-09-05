@@ -1,7 +1,7 @@
 "use client";
 
 import { DataTable } from "@/components/data-table";
-import { goalCategories, goalStatuses } from "@/data/features-data";
+import { goalCategories, goalStatuses, mapOptions } from "@/data/features-data";
 import { Goal } from "@/data/schema";
 import { columns } from "./column";
 
@@ -15,8 +15,16 @@ export function GoalsTable({ data }: { data: Goal[] }) {
       itemLabel="Goals"
       addNewLabel="Add New Goal"
       filters={[
-        { column: "status", title: "Status", options: goalStatuses },
-        { column: "category", title: "Category", options: goalCategories },
+        {
+          column: "status",
+          title: "Status",
+          options: mapOptions(goalStatuses),
+        },
+        {
+          column: "category",
+          title: "Category",
+          options: mapOptions(goalCategories),
+        },
       ]}
     />
   );

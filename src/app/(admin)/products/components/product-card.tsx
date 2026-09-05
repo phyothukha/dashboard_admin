@@ -8,8 +8,8 @@ import { cn } from "@/lib/utils";
 
 export function ProductCard({ row }: { row: Row<Product> }) {
   const product = row.original;
-  const category = productCategories.find((c) => c.value === product.category);
-  const status = productStatuses.find((s) => s.value === product.status);
+  const category = productCategories.get(product.category);
+  const status = productStatuses.get(product.status);
 
   return (
     <div className="flex flex-col gap-3 overflow-hidden rounded-xl border bg-card">

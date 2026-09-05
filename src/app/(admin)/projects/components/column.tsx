@@ -82,9 +82,7 @@ export const columns: ColumnDef<Project>[] = [
       <DataTableColumnHeader column={column} title="Status" />
     ),
     cell: ({ row }) => {
-      const status = projectStatuses.find(
-        (s) => s.value === row.getValue("status"),
-      );
+      const status = projectStatuses.get(row.getValue("status") as string);
       if (!status) return null;
       return (
         <Badge

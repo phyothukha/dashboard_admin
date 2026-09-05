@@ -76,9 +76,7 @@ export const columns: ColumnDef<Chat>[] = [
       <DataTableColumnHeader column={column} title="Channel" />
     ),
     cell: ({ row }) => {
-      const channel = chatChannels.find(
-        (c) => c.value === row.getValue("channel"),
-      );
+      const channel = chatChannels.get(row.getValue("channel") as string);
       return <Badge variant="outline">{channel?.label}</Badge>;
     },
     filterFn: (row, id, value) => value.includes(row.getValue(id)),
@@ -104,9 +102,7 @@ export const columns: ColumnDef<Chat>[] = [
       <DataTableColumnHeader column={column} title="Status" />
     ),
     cell: ({ row }) => {
-      const status = chatStatuses.find(
-        (s) => s.value === row.getValue("status"),
-      );
+      const status = chatStatuses.get(row.getValue("status") as string);
       if (!status) return null;
       return (
         <Badge

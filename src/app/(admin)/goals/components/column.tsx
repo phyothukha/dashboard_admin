@@ -82,9 +82,7 @@ export const columns: ColumnDef<Goal>[] = [
       <DataTableColumnHeader column={column} title="Category" />
     ),
     cell: ({ row }) => {
-      const category = goalCategories.find(
-        (c) => c.value === row.getValue("category"),
-      );
+      const category = goalCategories.get(row.getValue("category") as string);
       return <Badge variant="outline">{category?.label}</Badge>;
     },
     filterFn: (row, id, value) => value.includes(row.getValue(id)),
@@ -127,9 +125,7 @@ export const columns: ColumnDef<Goal>[] = [
       <DataTableColumnHeader column={column} title="Status" />
     ),
     cell: ({ row }) => {
-      const status = goalStatuses.find(
-        (s) => s.value === row.getValue("status"),
-      );
+      const status = goalStatuses.get(row.getValue("status") as string);
       if (!status) return null;
       return (
         <Badge

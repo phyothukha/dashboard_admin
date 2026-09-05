@@ -1,26 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Roboto_Flex } from "next/font/google";
 import "@/styles/globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
-import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
-import { AppSidebar } from "@/layout/app-sidebar";
-import AppHeader from "@/layout/app-header";
 import { NavigationEvents } from "@/components/navigation-events";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const robotoFlex = Roboto_Flex({
-  variable: "--font-flex",
-  subsets: ["latin"],
-});
+import { geistSans, geistMono, robotoFlex, roboto } from "@/lib/fonts";
+import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: {
@@ -36,8 +18,14 @@ export const metadata: Metadata = {
     "team management",
     "task management",
     "project management",
+    "Phyo Thu Kha",
+    "phyothukha",
+    "mern stack developer",
   ],
   authors: [{ name: "Phyo Thu Kha" }],
+  icons: {
+    icon: "/favicon.svg",
+  },
   robots: {
     index: false,
     follow: false,
@@ -59,23 +47,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${robotoFlex.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${robotoFlex.variable} ${roboto.variable} antialiased`}
       >
         <NavigationEvents />
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <SidebarProvider>
-            <AppSidebar />
-            <SidebarInset>
-              <AppHeader />
-              <div className="flex flex-1 flex-col gap-2 p-4">{children}</div>
-            </SidebarInset>
-          </SidebarProvider>
-        </ThemeProvider>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

@@ -5,6 +5,7 @@ import { CalendarEvent } from "@/data/schema";
 import {
   calendarEventStatuses,
   calendarEventTypes,
+  mapOptions,
 } from "@/data/features-data";
 import { columns } from "./column";
 
@@ -18,8 +19,16 @@ export function EventsTable({ data }: { data: CalendarEvent[] }) {
       itemLabel="Events"
       addNewLabel="Add New Event"
       filters={[
-        { column: "status", title: "Status", options: calendarEventStatuses },
-        { column: "type", title: "Type", options: calendarEventTypes },
+        {
+          column: "status",
+          title: "Status",
+          options: mapOptions(calendarEventStatuses),
+        },
+        {
+          column: "type",
+          title: "Type",
+          options: mapOptions(calendarEventTypes),
+        },
       ]}
     />
   );

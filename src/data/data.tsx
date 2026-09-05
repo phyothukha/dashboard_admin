@@ -9,63 +9,24 @@ import {
   Timer,
 } from "lucide-react";
 
-export const labels = [
-  {
-    value: "bug",
-    label: "Bug",
-  },
-  {
-    value: "feature",
-    label: "Feature",
-  },
-  {
-    value: "documentation",
-    label: "Documentation",
-  },
-];
+import { OptionMeta } from "@/lib/option-map";
 
-export const statuses = [
-  {
-    value: "backlog",
-    label: "Backlog",
-    icon: HelpCircle,
-  },
-  {
-    value: "todo",
-    label: "Todo",
-    icon: Circle,
-  },
-  {
-    value: "in progress",
-    label: "In Progress",
-    icon: Timer,
-  },
-  {
-    value: "done",
-    label: "Done",
-    icon: CheckCircle,
-  },
-  {
-    value: "canceled",
-    label: "Canceled",
-    icon: CircleOff,
-  },
-];
+export const labels = new Map<string, OptionMeta>([
+  ["bug", { label: "Bug" }],
+  ["feature", { label: "Feature" }],
+  ["documentation", { label: "Documentation" }],
+]);
 
-export const priorities = [
-  {
-    label: "Low",
-    value: "low",
-    icon: ArrowDown,
-  },
-  {
-    label: "Medium",
-    value: "medium",
-    icon: ArrowRight,
-  },
-  {
-    label: "High",
-    value: "high",
-    icon: ArrowUp,
-  },
-];
+export const statuses = new Map<string, OptionMeta>([
+  ["backlog", { label: "Backlog", icon: HelpCircle }],
+  ["todo", { label: "Todo", icon: Circle }],
+  ["in progress", { label: "In Progress", icon: Timer }],
+  ["done", { label: "Done", icon: CheckCircle }],
+  ["canceled", { label: "Canceled", icon: CircleOff }],
+]);
+
+export const priorities = new Map<string, OptionMeta>([
+  ["low", { label: "Low", icon: ArrowDown }],
+  ["medium", { label: "Medium", icon: ArrowRight }],
+  ["high", { label: "High", icon: ArrowUp }],
+]);
