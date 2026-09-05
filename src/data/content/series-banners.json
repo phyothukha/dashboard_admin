@@ -1,0 +1,82 @@
+[
+  {
+    "id": "c43b3162-516a-4d83-9fb4-11dd09d3f5c0",
+    "title": "Tales from Banner Campaign",
+    "image": "https://picsum.photos/seed/kFgqFBXD/400/225?grayscale&blur=6",
+    "linkTo": "/series/ignite-sorrowful",
+    "status": "active",
+    "position": 1,
+    "startDate": "2026-08-16T09:01:54.366Z",
+    "endDate": "2026-08-31T08:51:29.529Z"
+  },
+  {
+    "id": "5fa041c1-24ca-481e-8472-8a082415a1f9",
+    "title": "The Fall of Banner Campaign",
+    "image": "https://picsum.photos/seed/KeoOFpjD0/400/225?grayscale&blur=8",
+    "linkTo": "/series/where-thorn",
+    "status": "scheduled",
+    "position": 2,
+    "startDate": "2026-09-01T19:15:30.262Z",
+    "endDate": "2026-09-21T10:39:31.457Z"
+  },
+  {
+    "id": "8cb17b96-53a0-47b8-80aa-6578b11b34b5",
+    "title": "The Fall of Banner Campaign",
+    "image": "https://picsum.photos/seed/f479aVbytr/400/225",
+    "linkTo": "/series/yin-alongside",
+    "status": "active",
+    "position": 3,
+    "startDate": "2026-08-18T16:19:41.443Z",
+    "endDate": "2026-09-04T04:08:30.259Z"
+  },
+  {
+    "id": "d1142420-6744-482c-86ff-3e3e3b575a2c",
+    "title": "Whispers of Banner Campaign",
+    "image": "https://picsum.photos/seed/XX1SgO4H/400/225?grayscale&blur=8",
+    "linkTo": "/series/goat-that",
+    "status": "active",
+    "position": 4,
+    "startDate": "2026-08-20T23:25:47.808Z",
+    "endDate": "2026-08-23T23:13:45.291Z"
+  },
+  {
+    "id": "357ff8a6-231a-4e9f-a5e5-80a8887bfed1",
+    "title": "Chronicles of Banner Campaign",
+    "image": "https://picsum.photos/seed/SAzoeLv/400/225?grayscale&blur=7",
+    "linkTo": "/series/incidentally-who",
+    "status": "scheduled",
+    "position": 5,
+    "startDate": "2026-08-19T17:06:53.541Z",
+    "endDate": "2026-09-05T04:13:18.972Z"
+  },
+  {
+    "id": "8965f57b-9fa0-4db6-91ac-00bd7036755a",
+    "title": "Chronicles of Banner Campaign",
+    "image": "https://picsum.photos/seed/eauJs/400/225?blur=10",
+    "linkTo": "/series/tinderbox-although",
+    "status": "expired",
+    "position": 6,
+    "startDate": "2026-08-24T08:51:59.030Z",
+    "endDate": "2026-09-10T23:44:43.256Z"
+  },
+  {
+    "id": "4a051d25-4b60-44b4-a625-78633b80122f",
+    "title": "Chronicles of Banner Campaign",
+    "image": "https://picsum.photos/seed/Ly1oX/400/225?grayscale&blur=9",
+    "linkTo": "/series/unbalance-against",
+    "status": "active",
+    "position": 7,
+    "startDate": "2026-08-18T04:13:03.123Z",
+    "endDate": "2026-08-30T12:47:45.524Z"
+  },
+  {
+    "id": "e79a9f33-003c-4eba-9b56-50ec8df6e7fb",
+    "title": "The Rise of Banner Campaign",
+    "image": "https://picsum.photos/seed/XSHcI7/400/225?blur=5",
+    "linkTo": "/series/diver-oxidize",
+    "status": "expired",
+    "position": 8,
+    "startDate": "2026-08-20T12:43:59.851Z",
+    "endDate": "2026-08-28T23:49:02.817Z"
+  }
+]

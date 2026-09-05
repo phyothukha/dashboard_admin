@@ -1,9 +1,11 @@
 import {
-  Info,
+  HelpCircle,
   LayoutPanelTop,
+  Receipt,
   Settings,
   Settings2,
   Settings2Icon,
+  SettingsIcon,
   Tv,
   Tv2,
   Tv2Icon,
@@ -29,6 +31,7 @@ export interface MainNavLinkType {
 
 export const navLinks: MainNavLinkType[] = [
   {
+    title: "Menu",
     mainNavGroup: [
       {
         name: "Dashboard",
@@ -45,11 +48,10 @@ export const navLinks: MainNavLinkType[] = [
         icon: IconChecklist,
         url: "/tasks",
       },
-
       {
-        name: "Help",
-        icon: Info,
-        url: "/help",
+        name: "Transaction",
+        icon: Receipt,
+        url: "/transactions",
       },
     ],
   },
@@ -155,5 +157,18 @@ export const navLinks: MainNavLinkType[] = [
         url: "/tags",
       },
     ],
+  },
+];
+
+export const bottomNavLinks: NavLinkType[] = [
+  {
+    name: "Help Center",
+    icon: HelpCircle,
+    url: "/help",
+  },
+  {
+    name: "Settings",
+    icon: SettingsIcon,
+    url: "/settings",
   },
 ];

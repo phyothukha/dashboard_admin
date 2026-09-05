@@ -2,8 +2,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import { z } from "zod";
 import { taskSchema } from "@/data/schema";
-import { DataTable } from "@/components/data-table";
-import { columns } from "./components/column";
+import { TasksTable } from "./components/tasks-table";
 
 // Simulate a database read for tasks.
 async function getTasks() {
@@ -29,7 +28,7 @@ const TasksPage = async () => {
           </p>
         </div>
       </div>
-      <DataTable data={tasks} columns={columns} />
+      <TasksTable data={tasks} />
     </main>
   );
 };

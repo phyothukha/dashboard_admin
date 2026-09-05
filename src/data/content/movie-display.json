@@ -1,0 +1,218 @@
+[
+  {
+    "id": "96233a10-0dc6-4737-a915-00a9272f8b7e",
+    "section": "New Releases",
+    "title": "Midnight Woot",
+    "thumbnail": "https://picsum.photos/seed/567cP/400/225?grayscale",
+    "position": 1,
+    "visible": true,
+    "updatedAt": "2026-08-06T07:27:44.918Z"
+  },
+  {
+    "id": "58578331-1a0a-4be2-b0bc-c7736d97c6de",
+    "section": "Editor's Pick",
+    "title": "Hidden Transparency Spring",
+    "thumbnail": "https://picsum.photos/seed/uo74CVr5O/400/225?grayscale&blur=1",
+    "position": 2,
+    "visible": false,
+    "updatedAt": "2026-08-22T23:12:00.642Z"
+  },
+  {
+    "id": "1be8e534-6da8-42dd-af8e-8e31381c21e4",
+    "section": "Top Rated",
+    "title": "Eternal Hot Pigpen",
+    "thumbnail": "https://picsum.photos/seed/SPCV5/400/225?grayscale&blur=4",
+    "position": 3,
+    "visible": true,
+    "updatedAt": "2026-08-24T12:40:02.524Z"
+  },
+  {
+    "id": "7f5a60d5-ccd5-4956-936d-96ea3050f585",
+    "section": "Top Rated",
+    "title": "Last Electronics",
+    "thumbnail": "https://picsum.photos/seed/uiETyRI/400/225?blur=5",
+    "position": 4,
+    "visible": true,
+    "updatedAt": "2026-09-03T18:08:41.067Z"
+  },
+  {
+    "id": "cd10e938-ee17-4d43-b425-82beaa0727dc",
+    "section": "Top Rated",
+    "title": "Eternal Yowza Avow",
+    "thumbnail": "https://picsum.photos/seed/CHwJP/400/225?grayscale&blur=6",
+    "position": 5,
+    "visible": true,
+    "updatedAt": "2026-08-09T03:11:19.103Z"
+  },
+  {
+    "id": "ac4cc78e-2d91-425d-9481-76b01dc410a3",
+    "section": "Top Rated",
+    "title": "Last Scarily What",
+    "thumbnail": "https://picsum.photos/seed/NIOdIuLj/400/225?blur=5",
+    "position": 6,
+    "visible": true,
+    "updatedAt": "2026-08-08T22:31:45.545Z"
+  },
+  {
+    "id": "622e8e05-624f-4db2-ba57-c2304e4f7f15",
+    "section": "Trending Now",
+    "title": "Silent Boohoo",
+    "thumbnail": "https://picsum.photos/seed/U0AI30fXl/400/225?blur=2",
+    "position": 7,
+    "visible": false,
+    "updatedAt": "2026-08-10T00:55:53.847Z"
+  },
+  {
+    "id": "0c1d36d5-60ce-4b4a-b867-ccc26f18ec6b",
+    "section": "Editor's Pick",
+    "title": "Eternal Alive",
+    "thumbnail": "https://picsum.photos/seed/cBpwo5SDC/400/225?blur=8",
+    "position": 8,
+    "visible": false,
+    "updatedAt": "2026-08-24T03:38:03.847Z"
+  },
+  {
+    "id": "db64f150-2887-4ed7-bf5a-0474b697f3c2",
+    "section": "Editor's Pick",
+    "title": "Broken Venom Unknown",
+    "thumbnail": "https://picsum.photos/seed/R4XMVxgQ7/400/225?blur=2",
+    "position": 1,
+    "visible": true,
+    "updatedAt": "2026-08-09T08:31:35.516Z"
+  },
+  {
+    "id": "854c3559-b6c9-4fe3-a137-04fd99bdb6af",
+    "section": "Trending Now",
+    "title": "Shadow Lest",
+    "thumbnail": "https://picsum.photos/seed/dDac0osJzA/400/225?blur=3",
+    "position": 2,
+    "visible": true,
+    "updatedAt": "2026-08-27T19:09:18.524Z"
+  },
+  {
+    "id": "ce9eaad9-5d65-4361-a176-6153d971d5bf",
+    "section": "New Releases",
+    "title": "Eternal Along",
+    "thumbnail": "https://picsum.photos/seed/g3tjK/400/225?grayscale&blur=2",
+    "position": 3,
+    "visible": true,
+    "updatedAt": "2026-08-15T23:24:30.781Z"
+  },
+  {
+    "id": "686e60d2-2706-4e0e-8e8a-35637632c646",
+    "section": "Trending Now",
+    "title": "Crimson Amidst",
+    "thumbnail": "https://picsum.photos/seed/YN5ol/400/225?blur=4",
+    "position": 4,
+    "visible": false,
+    "updatedAt": "2026-08-11T21:44:07.327Z"
+  },
+  {
+    "id": "3bb0f6d1-23cf-429f-94ba-7f8aa641b3ff",
+    "section": "Editor's Pick",
+    "title": "Last Swiftly A",
+    "thumbnail": "https://picsum.photos/seed/WXeKxuj/400/225?grayscale&blur=5",
+    "position": 5,
+    "visible": true,
+    "updatedAt": "2026-08-29T03:12:46.700Z"
+  },
+  {
+    "id": "21a7a455-4ef4-40ef-89bb-9f77623caff1",
+    "section": "Editor's Pick",
+    "title": "Shadow Anenst",
+    "thumbnail": "https://picsum.photos/seed/K1jfAgF4z/400/225?blur=9",
+    "position": 6,
+    "visible": true,
+    "updatedAt": "2026-08-17T02:15:54.255Z"
+  },
+  {
+    "id": "2979f6d6-0276-4a49-a64b-16895416f6c3",
+    "section": "Editor's Pick",
+    "title": "Midnight Plagiarise Strictly",
+    "thumbnail": "https://picsum.photos/seed/37fGhNs/400/225",
+    "position": 7,
+    "visible": false,
+    "updatedAt": "2026-08-10T12:54:21.166Z"
+  },
+  {
+    "id": "c5921d28-5e70-4aaf-8791-323f8bb72e01",
+    "section": "Trending Now",
+    "title": "Broken Nor Toady",
+    "thumbnail": "https://picsum.photos/seed/41c28W7xqM/400/225?grayscale&blur=7",
+    "position": 8,
+    "visible": true,
+    "updatedAt": "2026-09-04T16:39:02.623Z"
+  },
+  {
+    "id": "c536bca0-a07a-4e0f-8fb4-f8e53046cf75",
+    "section": "New Releases",
+    "title": "Eternal Tag Cavernous",
+    "thumbnail": "https://picsum.photos/seed/ViXUmIY3bs/400/225?blur=3",
+    "position": 1,
+    "visible": true,
+    "updatedAt": "2026-08-19T20:33:36.737Z"
+  },
+  {
+    "id": "9f5e2fed-3906-40f3-9644-12afe67ca3aa",
+    "section": "Top Rated",
+    "title": "Shadow Meh",
+    "thumbnail": "https://picsum.photos/seed/Q3oPqZ/400/225?blur=5",
+    "position": 2,
+    "visible": false,
+    "updatedAt": "2026-09-02T05:06:12.493Z"
+  },
+  {
+    "id": "d0481b53-a99d-4b7d-8879-bc9a52978972",
+    "section": "Editor's Pick",
+    "title": "Last Rewrite Everlasting",
+    "thumbnail": "https://picsum.photos/seed/dy9j0FtV/400/225?grayscale",
+    "position": 3,
+    "visible": true,
+    "updatedAt": "2026-08-08T20:58:13.630Z"
+  },
+  {
+    "id": "da2faca8-410f-4f1f-b6d0-3ec53fd6b2cd",
+    "section": "Editor's Pick",
+    "title": "Broken Physically Duh",
+    "thumbnail": "https://picsum.photos/seed/uVDJov9e/400/225?grayscale&blur=6",
+    "position": 4,
+    "visible": true,
+    "updatedAt": "2026-08-14T08:46:23.921Z"
+  },
+  {
+    "id": "d4071d82-b68d-4cf1-918f-85b946eeffb2",
+    "section": "Editor's Pick",
+    "title": "Midnight Via",
+    "thumbnail": "https://picsum.photos/seed/UvNOxo/400/225?grayscale&blur=9",
+    "position": 5,
+    "visible": true,
+    "updatedAt": "2026-08-21T14:11:55.409Z"
+  },
+  {
+    "id": "f0374307-4c9a-45cb-ae6b-10f7d126382e",
+    "section": "New Releases",
+    "title": "Hidden Mmm For",
+    "thumbnail": "https://picsum.photos/seed/kz7Fs/400/225?blur=1",
+    "position": 6,
+    "visible": false,
+    "updatedAt": "2026-08-13T22:47:13.225Z"
+  },
+  {
+    "id": "a636ced0-ebc5-4202-8d7a-02a197f1f8ba",
+    "section": "Trending Now",
+    "title": "Broken Briskly Abnormally",
+    "thumbnail": "https://picsum.photos/seed/1vrJBDdez/400/225?blur=7",
+    "position": 7,
+    "visible": true,
+    "updatedAt": "2026-08-07T15:10:46.921Z"
+  },
+  {
+    "id": "4b71a344-023a-4043-acf2-0f0afbd6790e",
+    "section": "Top Rated",
+    "title": "Eternal Vice",
+    "thumbnail": "https://picsum.photos/seed/UgBqstnN/400/225",
+    "position": 8,
+    "visible": true,
+    "updatedAt": "2026-08-22T05:33:45.155Z"
+  }
+]

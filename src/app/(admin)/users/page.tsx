@@ -1,23 +1,16 @@
-import { promises as fs } from "fs";
-import path from "path";
-import { z } from "zod";
 import React from "react";
-import { DataTable } from "@/components/data-table";
-import { columns } from "./components/column";
-import { taskSchema } from "@/data/schema";
+import { z } from "zod";
+import { userSchema } from "@/data/schema";
+import users from "@/data/users.json";
+import { UsersTable } from "./components/users-table";
 
-async function getTasks() {
-  const data = await fs.readFile(
-    path.join(process.cwd(), "./src/data/tasks.json"),
-  );
-
-  const tasks = JSON.parse(data.toString());
-
-  return z.array(taskSchema).parse(tasks);
+async function getUsers() {
+  return z.array(userSchema).parse(users);
 }
 
 const UserPage = async () => {
-  const tasks = await getTasks();
+  const data = await getUsers();
+
   return (
     <main className=" w-full h-full flex-1 flex-col space-y-5 mt-5 ">
       <div className="flex items-center justify-between space-y-2">
@@ -29,7 +22,7 @@ const UserPage = async () => {
         </div>
       </div>
 
-      <DataTable data={tasks} columns={columns} />
+      <UsersTable data={data} />
     </main>
   );
 };

@@ -30,6 +30,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import { NavActiveIndicator } from "./nav-active-indicator";
 
 export function NavMain({
   items,
@@ -55,20 +56,24 @@ export function NavMain({
     <SidebarGroup>
       {title && <SidebarGroupLabel>{title}</SidebarGroupLabel>}
 
-      <SidebarMenu>
+      <SidebarMenu className="gap-1.5">
         {items.map((item) => {
           if (!item.navGroup) {
+            const active = checkIsActive(href, item);
             return (
               <SidebarMenuItem key={item.name}>
+                {active && <NavActiveIndicator />}
                 <SidebarMenuButton
                   asChild
                   className={cn(
-                    checkIsActive(href, item) && " bg-secondary !text-primary",
-                    "text-[15px]  px-4 py-2.5 gap-2  flex items-center rounded-lg transition-colors",
+                    active
+                      ? "text-primary font-medium"
+                      : "text-muted-foreground hover:bg-muted hover:text-foreground",
+                    "relative h-11 text-[15px] px-3.5 py-3 gap-3 flex items-center rounded-lg transition-colors",
                   )}
                 >
                   <Link href={item.url}>
-                    {item.icon && <item.icon className="w-5 h-5" />}
+                    {item.icon && <item.icon className="size-5 shrink-0" />}
                     <span>{item.name}</span>
                   </Link>
                 </SidebarMenuButton>
@@ -76,6 +81,7 @@ export function NavMain({
             );
           }
           if (state === "expanded") {
+            const active = checkIsActive(href, item);
             return (
               <Collapsible
                 key={item.name}
@@ -84,15 +90,18 @@ export function NavMain({
                 className="group/collapsible"
               >
                 <SidebarMenuItem>
+                  {active && <NavActiveIndicator />}
                   <CollapsibleTrigger asChild>
                     <SidebarMenuButton
                       tooltip={item.name}
                       className={cn(
-                        checkIsActive(href, item) && " !text-primary",
-                        "text-[15px]  px-4 py-2.5 gap-2  flex items-center rounded-lg transition-colors",
+                        active
+                          ? "text-primary font-medium"
+                          : "text-muted-foreground hover:bg-muted hover:text-foreground",
+                        "relative h-11 text-[15px] px-3.5 py-3 gap-3 flex items-center rounded-lg transition-colors",
                       )}
                     >
-                      {item.icon && <item.icon />}
+                      {item.icon && <item.icon className="size-5 shrink-0" />}
                       <span>{item.name}</span>
                       <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />
                     </SidebarMenuButton>
@@ -104,15 +113,18 @@ export function NavMain({
                           <SidebarMenuSubButton
                             asChild
                             className={cn(
-                              checkIsActive(href, subItem) && "bg-secondary",
-                              "text-[14px]  px-4 py-2.5 flex items-center gap-2 rounded-md transition-colors",
+                              checkIsActive(href, subItem) &&
+                                "bg-accent text-accent-foreground",
+                              "h-9 text-[15px] px-4 py-2.5 flex items-center gap-2.5 rounded-md transition-colors",
                             )}
                           >
                             <Link
                               href={subItem.url}
                               onClick={() => setOpenMobile(false)}
                             >
-                              {subItem.icon && <subItem.icon />}
+                              {subItem.icon && (
+                                <subItem.icon className="size-4 shrink-0" />
+                              )}
                               <span>{subItem.name}</span>
                             </Link>
                           </SidebarMenuSubButton>
@@ -124,15 +136,17 @@ export function NavMain({
               </Collapsible>
             );
           }
+          const active = checkIsActive(href, item);
           return (
             <SidebarMenuItem key={item.name}>
+              {active && <NavActiveIndicator />}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <SidebarMenuButton
                     tooltip={item.name}
                     className={cn(
-                      checkIsActive(href, item) &&
-                        " bg-secondary !text-primary",
+                      "relative",
+                      active && "text-primary font-medium",
                     )}
                   >
                     {item.icon && <item.icon />}

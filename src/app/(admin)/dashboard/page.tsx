@@ -1,166 +1,107 @@
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { RecentSales } from "./components/recent-sale";
-import { Overview } from "./components/overview";
+  Calendar,
+  Download,
+  LayoutGrid,
+  MousePointerClick,
+  ShoppingBag,
+  Users,
+  Eye,
+} from "lucide-react";
+
+import { Button } from "@/components/ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { StatCard } from "./components/stat-card";
+import { TotalProfitCard } from "./components/total-profit-card";
+import { BestSellingProducts } from "./components/best-selling-products";
+import { MostDayActive } from "./components/most-day-active";
+import { RepeatCustomerRate } from "./components/repeat-customer-rate";
+import { AiAssistantCard } from "./components/ai-assistant-card";
+
+const stats = [
+  {
+    label: "Page Views",
+    value: "16,431",
+    icon: Eye,
+    change: 15.5,
+    comparison: "vs 14,653 last period",
+  },
+  {
+    label: "Visitors",
+    value: "6,225",
+    icon: Users,
+    change: 8.4,
+    comparison: "vs 5,732 last period",
+  },
+  {
+    label: "Click",
+    value: "2,832",
+    icon: MousePointerClick,
+    change: -10.5,
+    comparison: "vs 3,294 last period",
+  },
+  {
+    label: "Orders",
+    value: "1,224",
+    icon: ShoppingBag,
+    change: 4.4,
+    comparison: "vs 1,186 last period",
+  },
+];
 
 export default function Dashboard() {
   return (
-    <main className=" w-full h-full flex-1 flex-col space-y-5 ">
-      <div className="flex items-center justify-between space-y-2">
+    <main className="w-full h-full flex-1 flex-col space-y-4">
+      <div className="flex flex-wrap items-center justify-between gap-3">
         <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
-      </div>
-      <Tabs
-        orientation="vertical"
-        defaultValue="overview"
-        className="space-y-4 w-full"
-      >
-        <div className="w-full overflow-x-auto pb-2">
-          <TabsList>
-            <TabsTrigger value="overview">Overview</TabsTrigger>
-            <TabsTrigger value="analytics" disabled>
-              Analytics
-            </TabsTrigger>
-            <TabsTrigger value="reports" disabled>
-              Reports
-            </TabsTrigger>
-            <TabsTrigger value="notifications" disabled>
-              Notifications
-            </TabsTrigger>
-          </TabsList>
+        <div className="flex flex-wrap items-center gap-2">
+          <Button variant="outline" size="sm" className="text-muted-foreground">
+            <Calendar className="size-4" />
+            Jan 1, 2025 - Feb 1, 2025
+          </Button>
+          <Select defaultValue="30">
+            <SelectTrigger size="sm" className="w-[140px]">
+              <SelectValue placeholder="Last 30 days" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="7">Last 7 days</SelectItem>
+              <SelectItem value="30">Last 30 days</SelectItem>
+              <SelectItem value="90">Last 90 days</SelectItem>
+            </SelectContent>
+          </Select>
+          <Button variant="outline" size="sm">
+            <LayoutGrid className="size-4" />
+            Add widget
+          </Button>
+          <Button size="sm">
+            <Download className="size-4" />
+            Export
+          </Button>
         </div>
-        <TabsContent value="overview" className="space-y-4 ">
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            <Card>
-              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                <CardTitle className="text-sm font-medium">
-                  Total Revenue
-                </CardTitle>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="text-muted-foreground h-4 w-4"
-                >
-                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-                </svg>
-              </CardHeader>
-              <CardContent>
-                <div className="text-2xl font-bold">$45,231.89</div>
-                <p className="text-muted-foreground text-xs">
-                  +20.1% from last month
-                </p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                <CardTitle className="text-sm font-medium">
-                  Subscriptions
-                </CardTitle>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="text-muted-foreground h-4 w-4"
-                >
-                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                  <circle cx="9" cy="7" r="4" />
-                  <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
-                </svg>
-              </CardHeader>
-              <CardContent>
-                <div className="text-2xl font-bold">+2350</div>
-                <p className="text-muted-foreground text-xs">
-                  +180.1% from last month
-                </p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                <CardTitle className="text-sm font-medium">Sales</CardTitle>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="text-muted-foreground h-4 w-4"
-                >
-                  <rect width="20" height="14" x="2" y="5" rx="2" />
-                  <path d="M2 10h20" />
-                </svg>
-              </CardHeader>
-              <CardContent>
-                <div className="text-2xl font-bold">+12,234</div>
-                <p className="text-muted-foreground text-xs">
-                  +19% from last month
-                </p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                <CardTitle className="text-sm font-medium">
-                  Active Now
-                </CardTitle>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="text-muted-foreground h-4 w-4"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-                </svg>
-              </CardHeader>
-              <CardContent>
-                <div className="text-2xl font-bold">+573</div>
-                <p className="text-muted-foreground text-xs">
-                  +201 since last hour
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-          <div className="grid grid-cols-1 gap-4 lg:grid-cols-7">
-            <Card className="col-span-1 lg:col-span-4">
-              <CardHeader>
-                <CardTitle>Overview</CardTitle>
-              </CardHeader>
-              <CardContent className="pl-2">
-                <Overview />
-              </CardContent>
-            </Card>
-            <Card className="col-span-1 lg:col-span-3">
-              <CardHeader>
-                <CardTitle>Recent Sales</CardTitle>
-                <CardDescription>
-                  You made 265 sales this month.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <RecentSales />
-              </CardContent>
-            </Card>
-          </div>
-        </TabsContent>
-      </Tabs>
+      </div>
+
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {stats.map((stat) => (
+          <StatCard key={stat.label} {...stat} />
+        ))}
+      </div>
+
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
+        <div className="flex flex-col gap-4 lg:col-span-2">
+          <TotalProfitCard />
+          <BestSellingProducts />
+        </div>
+        <div className="flex flex-col gap-4">
+          <MostDayActive />
+          <RepeatCustomerRate />
+          <AiAssistantCard />
+        </div>
+      </div>
     </main>
   );
 }

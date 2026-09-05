@@ -1,11 +1,26 @@
-import React from "react";
+import display from "@/data/content/programs-display.json";
+import { DisplayTable } from "@/components/content/display-table";
 
-const GenresPage = () => {
+const sections = Array.from(new Set(display.map((item) => item.section)));
+
+const ProgramDisplayPage = () => {
   return (
-    <div>
-      <h1>This is Genres Page</h1>
-    </div>
+    <main className="w-full h-full flex-1 flex-col space-y-5 mt-5">
+      <div>
+        <h2 className="text-2xl font-bold tracking-tight">Programs Display</h2>
+        <p className="text-muted-foreground">
+          Control which programs appear in each home page section, and in what
+          order.
+        </p>
+      </div>
+      <DisplayTable
+        data={display}
+        itemLabel="Items"
+        addNewLabel="Add To Display"
+        sections={sections}
+      />
+    </main>
   );
 };
 
-export default GenresPage;
+export default ProgramDisplayPage;

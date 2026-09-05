@@ -1,9 +1,8 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { z } from "zod";
-import { columns } from "./components/column";
-import { DataTable } from "@/components/data-table";
 import { taskSchema } from "@/data/schema";
+import { TasksTable } from "../tasks/components/tasks-table";
 
 async function getTasks() {
   const data = await fs.readFile(
@@ -29,7 +28,7 @@ const HelpPage = async () => {
         </div>
       </div>
 
-      <DataTable data={tasks} columns={columns} />
+      <TasksTable data={tasks} />
     </main>
   );
 };
