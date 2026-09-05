@@ -3,7 +3,7 @@
 import * as React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Search, Sparkles, Zap } from "lucide-react";
+import { Search, Zap } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -20,7 +20,6 @@ import { NavMain } from "./nav-main";
 import { NavActiveIndicator } from "./nav-active-indicator";
 import { NavUser } from "./nav-user";
 import { bottomNavLinks, navLinks } from "@/assets/nav-links";
-import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 // This is sample data.
@@ -110,30 +109,6 @@ function BottomNav() {
   );
 }
 
-function UpgradeCard() {
-  const { state } = useSidebar();
-  if (state !== "expanded") return null;
-
-  return (
-    <div className="mx-2 mb-2 overflow-hidden rounded-xl bg-gradient-to-br from-primary to-blue-700 p-4 text-primary-foreground">
-      <div className="flex size-8 items-center justify-center rounded-full bg-white/15">
-        <Sparkles className="size-4" />
-      </div>
-      <p className="mt-3 text-sm font-semibold">Upgrade to Premium!</p>
-      <p className="mt-1 text-xs text-primary-foreground/80">
-        Upgrade your account and unlock all of the benefits.
-      </p>
-      <Button
-        size="sm"
-        variant="secondary"
-        className="mt-3 w-full bg-white text-primary hover:bg-white/90"
-      >
-        Upgrade premium
-      </Button>
-    </div>
-  );
-}
-
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar collapsible="icon" {...props}>
@@ -147,7 +122,6 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         ))}
       </SidebarContent>
       <SidebarFooter className="gap-3">
-        <UpgradeCard />
         <BottomNav />
         <NavUser user={data.user} />
       </SidebarFooter>

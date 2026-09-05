@@ -1,0 +1,282 @@
+[
+  {
+    "id": "0f5182a8-b361-42eb-a681-abe60e9721cf",
+    "name": "Altenwerth - Reilly",
+    "icon": "https://picsum.photos/seed/OPcKBMb/80/80?grayscale&blur=3",
+    "category": "finance",
+    "developer": "Pfannerstill, Schaden and Dach",
+    "status": "installed",
+    "rating": 3.7,
+    "installs": 815181
+  },
+  {
+    "id": "a8b0a5c4-e062-4ac2-a8dd-ae5c6388f4f3",
+    "name": "Roob, Pacocha and Bartell",
+    "icon": "https://picsum.photos/seed/tgtqwEw/80/80?grayscale&blur=9",
+    "category": "productivity",
+    "developer": "Schaden LLC",
+    "status": "installed",
+    "rating": 4.1,
+    "installs": 738201
+  },
+  {
+    "id": "3da23066-147a-4e04-bef3-77e279529795",
+    "name": "Shanahan and Sons",
+    "icon": "https://picsum.photos/seed/6DtUEQVGrU/80/80?grayscale&blur=2",
+    "category": "design",
+    "developer": "Hickle, Mitchell and Reinger",
+    "status": "available",
+    "rating": 3.6,
+    "installs": 726040
+  },
+  {
+    "id": "2922b4aa-d4a5-438e-a910-b6e8ae0a9da1",
+    "name": "Reichel, Anderson and Stehr",
+    "icon": "https://picsum.photos/seed/njiqufUAZc/80/80?grayscale&blur=8",
+    "category": "communication",
+    "developer": "Kihn, O'Kon and Turcotte",
+    "status": "installed",
+    "rating": 3.4,
+    "installs": 628454
+  },
+  {
+    "id": "f34af844-4638-4a18-9b29-693e206aba66",
+    "name": "Durgan, Kuhlman and Doyle",
+    "icon": "https://picsum.photos/seed/tF8s2/80/80?grayscale&blur=5",
+    "category": "productivity",
+    "developer": "Rice, Schmitt and Blanda",
+    "status": "installed",
+    "rating": 4.4,
+    "installs": 870510
+  },
+  {
+    "id": "8ddbc359-0de6-436c-b056-d73568636932",
+    "name": "Crist-Ritchie, Waters and Dicki",
+    "icon": "https://picsum.photos/seed/K6AjjdWGm/80/80?grayscale&blur=9",
+    "category": "design",
+    "developer": "Prosacco, Langworth and Bergnaum",
+    "status": "installed",
+    "rating": 3.8,
+    "installs": 643708
+  },
+  {
+    "id": "cf0dd5af-0637-426c-b2ab-2d4d1c1f9743",
+    "name": "Bruen Inc",
+    "icon": "https://picsum.photos/seed/zqmJJvR5C/80/80?blur=9",
+    "category": "design",
+    "developer": "Conroy Group",
+    "status": "available",
+    "rating": 3.9,
+    "installs": 761685
+  },
+  {
+    "id": "59f73edd-88ba-4a2d-9f73-565f3f965f11",
+    "name": "Stokes LLC",
+    "icon": "https://picsum.photos/seed/ppq6mA/80/80?grayscale&blur=8",
+    "category": "productivity",
+    "developer": "Conroy - Collins",
+    "status": "installed",
+    "rating": 3.1,
+    "installs": 784563
+  },
+  {
+    "id": "86d0e184-cf3d-4400-bc70-2abd3b22883e",
+    "name": "Moore - Hagenes",
+    "icon": "https://picsum.photos/seed/R0gnGg1Wi/80/80?blur=10",
+    "category": "productivity",
+    "developer": "Wiegand, Ferry and Moore",
+    "status": "update-available",
+    "rating": 3.3,
+    "installs": 581270
+  },
+  {
+    "id": "1191f915-57f0-4838-925c-7bc2244bbded",
+    "name": "Farrell Group",
+    "icon": "https://picsum.photos/seed/ZxpgD/80/80?grayscale&blur=7",
+    "category": "productivity",
+    "developer": "Wunsch LLC",
+    "status": "available",
+    "rating": 3.4,
+    "installs": 339000
+  },
+  {
+    "id": "24091444-23aa-4072-8d6d-ec6d73f78e94",
+    "name": "Osinski Group",
+    "icon": "https://picsum.photos/seed/7GHRh/80/80?blur=9",
+    "category": "design",
+    "developer": "Mertz - O'Keefe",
+    "status": "available",
+    "rating": 4.8,
+    "installs": 447972
+  },
+  {
+    "id": "e9cd5b98-059d-49c6-8de2-f5b889eb60e6",
+    "name": "Bode - Gorczany",
+    "icon": "https://picsum.photos/seed/eiV71W/80/80?blur=2",
+    "category": "analytics",
+    "developer": "Dibbert, Abshire-Schimmel and Davis",
+    "status": "update-available",
+    "rating": 3.6,
+    "installs": 353780
+  },
+  {
+    "id": "63fedf36-83d6-4dba-bcac-df3e6ce6f4a6",
+    "name": "Frami - Williamson",
+    "icon": "https://picsum.photos/seed/2pHQx/80/80?grayscale&blur=8",
+    "category": "communication",
+    "developer": "Runolfsdottir - Mills",
+    "status": "update-available",
+    "rating": 3.4,
+    "installs": 524410
+  },
+  {
+    "id": "13ba224d-362a-4eab-b1d9-60e4b2ccf816",
+    "name": "Hayes, Rippin and Leuschke",
+    "icon": "https://picsum.photos/seed/RVW3fm5V/80/80?grayscale&blur=7",
+    "category": "communication",
+    "developer": "Hahn Group",
+    "status": "update-available",
+    "rating": 4,
+    "installs": 918576
+  },
+  {
+    "id": "9799d704-3bd8-491f-8267-84af02d2de6b",
+    "name": "Walter - Krajcik",
+    "icon": "https://picsum.photos/seed/YjREX/80/80?blur=4",
+    "category": "productivity",
+    "developer": "Hodkiewicz, Marks and Weissnat",
+    "status": "update-available",
+    "rating": 4,
+    "installs": 43616
+  },
+  {
+    "id": "b0cfe915-80f8-44cf-a485-f791ea3405bf",
+    "name": "Kemmer Group",
+    "icon": "https://picsum.photos/seed/kQ04f3a/80/80?blur=4",
+    "category": "finance",
+    "developer": "Rath LLC",
+    "status": "installed",
+    "rating": 3.6,
+    "installs": 422120
+  },
+  {
+    "id": "93e13f81-e815-4495-b967-855a62f922f6",
+    "name": "DuBuque - Kohler-Stehr",
+    "icon": "https://picsum.photos/seed/jssjV3xSS/80/80?blur=1",
+    "category": "productivity",
+    "developer": "Roberts, Treutel and Gorczany",
+    "status": "installed",
+    "rating": 3,
+    "installs": 217044
+  },
+  {
+    "id": "90ebdb76-f6ad-4ba8-aaaf-2e63645d2591",
+    "name": "Mueller Group",
+    "icon": "https://picsum.photos/seed/QGlltE/80/80?grayscale&blur=8",
+    "category": "analytics",
+    "developer": "Schamberger Group",
+    "status": "update-available",
+    "rating": 4.9,
+    "installs": 321
+  },
+  {
+    "id": "0a4796fb-7770-4ac8-914a-94e55fd7ddf1",
+    "name": "Russel and Sons",
+    "icon": "https://picsum.photos/seed/2PtT6/80/80?blur=6",
+    "category": "communication",
+    "developer": "Conn, Bernhard-Satterfield and Bayer-Konopelski",
+    "status": "available",
+    "rating": 3,
+    "installs": 500745
+  },
+  {
+    "id": "3c473606-9ada-41dd-a7cc-44a17eb58684",
+    "name": "Bogan - Hudson",
+    "icon": "https://picsum.photos/seed/dxL1bdB/80/80?grayscale&blur=7",
+    "category": "productivity",
+    "developer": "Rutherford and Sons",
+    "status": "installed",
+    "rating": 3.9,
+    "installs": 518209
+  },
+  {
+    "id": "dabeb187-5506-45c1-af41-9c114e0a4931",
+    "name": "Kuphal, Leuschke and O'Connell",
+    "icon": "https://picsum.photos/seed/TRb2y/80/80?grayscale&blur=7",
+    "category": "design",
+    "developer": "Armstrong, Pouros and Hessel",
+    "status": "installed",
+    "rating": 4.2,
+    "installs": 57325
+  },
+  {
+    "id": "7624c2c3-80b7-43f8-8051-c7eab2240c12",
+    "name": "Grady LLC",
+    "icon": "https://picsum.photos/seed/4NmhBFWZz/80/80?blur=9",
+    "category": "productivity",
+    "developer": "Davis Group",
+    "status": "installed",
+    "rating": 3.2,
+    "installs": 450712
+  },
+  {
+    "id": "5cd05a9f-d24e-4c59-9e42-3bacb28bb163",
+    "name": "Renner, Leffler and Reynolds",
+    "icon": "https://picsum.photos/seed/cp2mfx1/80/80?grayscale&blur=2",
+    "category": "analytics",
+    "developer": "Feest, Reinger and Hyatt",
+    "status": "installed",
+    "rating": 4.3,
+    "installs": 580862
+  },
+  {
+    "id": "5385573d-7877-49b6-a870-8e06354d802f",
+    "name": "McGlynn - Jacobi",
+    "icon": "https://picsum.photos/seed/sZnll4wC/80/80?blur=6",
+    "category": "productivity",
+    "developer": "Franecki LLC",
+    "status": "installed",
+    "rating": 3,
+    "installs": 654350
+  },
+  {
+    "id": "c48799ac-0d2d-4db6-bd57-af2db4a1ddf5",
+    "name": "Terry, Farrell and Price",
+    "icon": "https://picsum.photos/seed/TrvHjfH9/80/80?grayscale&blur=5",
+    "category": "design",
+    "developer": "Shields Inc",
+    "status": "installed",
+    "rating": 3.2,
+    "installs": 885315
+  },
+  {
+    "id": "5396c150-3d94-4a46-b623-5a7e87ccaea3",
+    "name": "Pouros, Weissnat and Lynch-Adams",
+    "icon": "https://picsum.photos/seed/jrTvMUN/80/80?grayscale&blur=3",
+    "category": "productivity",
+    "developer": "Sanford Inc",
+    "status": "available",
+    "rating": 3.6,
+    "installs": 676506
+  },
+  {
+    "id": "64b170e7-282c-4aa1-b2bf-5e028c5d173e",
+    "name": "Rogahn - Gottlieb",
+    "icon": "https://picsum.photos/seed/NIwTD/80/80?grayscale&blur=7",
+    "category": "productivity",
+    "developer": "Lynch Inc",
+    "status": "update-available",
+    "rating": 4.2,
+    "installs": 188164
+  },
+  {
+    "id": "823ad4ff-d7f7-455d-ac91-4705a0f45788",
+    "name": "Turcotte-Schmidt - Kiehn",
+    "icon": "https://picsum.photos/seed/JOMGn/80/80?grayscale&blur=4",
+    "category": "productivity",
+    "developer": "Towne LLC",
+    "status": "installed",
+    "rating": 3,
+    "installs": 467316
+  }
+]

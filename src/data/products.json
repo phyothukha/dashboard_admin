@@ -1,0 +1,442 @@
+[
+  {
+    "id": "93af7abb-ba39-4edf-8b73-5078da015ed0",
+    "name": "Handcrafted Wooden Table",
+    "thumbnail": "https://picsum.photos/seed/Adn7ti1/400/225?blur=10",
+    "category": "home",
+    "price": 97.23,
+    "stock": 487,
+    "status": "low-stock",
+    "sales": 1567
+  },
+  {
+    "id": "e49c95e2-32c7-44fb-baf2-da53d937e14c",
+    "name": "Fantastic Metal Bike",
+    "thumbnail": "https://picsum.photos/seed/Pnblt/400/225?blur=4",
+    "category": "electronics",
+    "price": 582.45,
+    "stock": 475,
+    "status": "out-of-stock",
+    "sales": 11632
+  },
+  {
+    "id": "a8b49b76-e2c1-4f0d-94e7-2d529960fcb8",
+    "name": "Gorgeous Gold Computer",
+    "thumbnail": "https://picsum.photos/seed/pIjyjHMqQB/400/225?grayscale&blur=4",
+    "category": "sports",
+    "price": 725.42,
+    "stock": 129,
+    "status": "out-of-stock",
+    "sales": 8759
+  },
+  {
+    "id": "7955eb91-56c0-4350-ad44-c75aa9e3561a",
+    "name": "Recycled Metal Gloves",
+    "thumbnail": "https://picsum.photos/seed/C3jmRePbtw/400/225?blur=4",
+    "category": "beauty",
+    "price": 171.87,
+    "stock": 134,
+    "status": "in-stock",
+    "sales": 1926
+  },
+  {
+    "id": "c0b6f556-d7e3-44df-9466-3030a2af5c63",
+    "name": "Soft Bamboo Cheese",
+    "thumbnail": "https://picsum.photos/seed/noX3ogrI4/400/225?grayscale&blur=7",
+    "category": "apparel",
+    "price": 694.28,
+    "stock": 290,
+    "status": "in-stock",
+    "sales": 1739
+  },
+  {
+    "id": "4d4e837c-33a7-4404-a7af-6eed90be9413",
+    "name": "Bespoke Marble Bacon",
+    "thumbnail": "https://picsum.photos/seed/48m3P/400/225?grayscale&blur=2",
+    "category": "electronics",
+    "price": 743.27,
+    "stock": 316,
+    "status": "low-stock",
+    "sales": 8163
+  },
+  {
+    "id": "f96853f0-7f8a-4ebb-a0c4-33168a4148a3",
+    "name": "Bespoke Aluminum Gloves",
+    "thumbnail": "https://picsum.photos/seed/shAMF/400/225?blur=8",
+    "category": "home",
+    "price": 591.04,
+    "stock": 433,
+    "status": "in-stock",
+    "sales": 3021
+  },
+  {
+    "id": "35a50f2c-666f-49f9-a088-0732ff7c5f17",
+    "name": "Bespoke Aluminum Ball",
+    "thumbnail": "https://picsum.photos/seed/7x8MWwK/400/225?grayscale&blur=2",
+    "category": "apparel",
+    "price": 146.28,
+    "stock": 215,
+    "status": "low-stock",
+    "sales": 11918
+  },
+  {
+    "id": "9c0bcebb-6cc5-49e2-853b-6bb3116e02f2",
+    "name": "Bespoke Silk Pizza",
+    "thumbnail": "https://picsum.photos/seed/fLFfBazdrq/400/225?grayscale",
+    "category": "home",
+    "price": 347.06,
+    "stock": 152,
+    "status": "in-stock",
+    "sales": 1717
+  },
+  {
+    "id": "1c2ffa92-6e20-45f3-b386-60476604f5b5",
+    "name": "Practical Plastic Soap",
+    "thumbnail": "https://picsum.photos/seed/KfXqwrWmm/400/225?grayscale&blur=6",
+    "category": "electronics",
+    "price": 485.13,
+    "stock": 354,
+    "status": "out-of-stock",
+    "sales": 7299
+  },
+  {
+    "id": "0c700ed5-0297-46f9-948c-0d02898756b8",
+    "name": "Modern Aluminum Computer",
+    "thumbnail": "https://picsum.photos/seed/xLHVCjzrpH/400/225?blur=8",
+    "category": "home",
+    "price": 132.52,
+    "stock": 357,
+    "status": "low-stock",
+    "sales": 816
+  },
+  {
+    "id": "47c03e2d-a6e9-483c-84ef-64fd8be75820",
+    "name": "Electronic Steel Table",
+    "thumbnail": "https://picsum.photos/seed/LkPBfTAM/400/225?grayscale&blur=2",
+    "category": "sports",
+    "price": 163.81,
+    "stock": 271,
+    "status": "low-stock",
+    "sales": 137
+  },
+  {
+    "id": "f9dab04c-5427-4927-bb6b-531d8a28e6d5",
+    "name": "Gorgeous Marble Cheese",
+    "thumbnail": "https://picsum.photos/seed/mOCNUiRJQX/400/225?blur=7",
+    "category": "beauty",
+    "price": 823.11,
+    "stock": 321,
+    "status": "low-stock",
+    "sales": 8685
+  },
+  {
+    "id": "6b22ae14-181c-42ba-b434-43dc03157fff",
+    "name": "Electronic Rubber Fish",
+    "thumbnail": "https://picsum.photos/seed/klnIDl1a/400/225?grayscale",
+    "category": "sports",
+    "price": 153.34,
+    "stock": 118,
+    "status": "out-of-stock",
+    "sales": 1303
+  },
+  {
+    "id": "0b231602-2613-4ffa-853b-c8b6ddcaf856",
+    "name": "Handcrafted Cotton Sausages",
+    "thumbnail": "https://picsum.photos/seed/sCqN22/400/225?blur=9",
+    "category": "beauty",
+    "price": 274.58,
+    "stock": 263,
+    "status": "low-stock",
+    "sales": 7721
+  },
+  {
+    "id": "5c30da08-50e6-4d47-9bc9-0fc590558a0b",
+    "name": "Recycled Aluminum Soap",
+    "thumbnail": "https://picsum.photos/seed/G0coxDkAbP/400/225?grayscale",
+    "category": "sports",
+    "price": 47.16,
+    "stock": 287,
+    "status": "out-of-stock",
+    "sales": 5959
+  },
+  {
+    "id": "fdd23970-c449-4118-9e70-294f022213d3",
+    "name": "Sleek Concrete Tuna",
+    "thumbnail": "https://picsum.photos/seed/zvUzmP/400/225",
+    "category": "apparel",
+    "price": 821.64,
+    "stock": 429,
+    "status": "out-of-stock",
+    "sales": 4901
+  },
+  {
+    "id": "0302e533-f58b-49fa-8623-3111d3caed23",
+    "name": "Refined Wooden Salad",
+    "thumbnail": "https://picsum.photos/seed/Bqx0yG/400/225?grayscale&blur=3",
+    "category": "sports",
+    "price": 788.08,
+    "stock": 167,
+    "status": "out-of-stock",
+    "sales": 3218
+  },
+  {
+    "id": "92aeb110-8508-4b01-b737-1549211cab45",
+    "name": "Incredible Bamboo Chicken",
+    "thumbnail": "https://picsum.photos/seed/8c04MwcW4G/400/225?grayscale&blur=8",
+    "category": "apparel",
+    "price": 379.42,
+    "stock": 474,
+    "status": "out-of-stock",
+    "sales": 8566
+  },
+  {
+    "id": "1f4d76b6-0d0e-45af-a6ed-86db5bd3136d",
+    "name": "Small Aluminum Pizza",
+    "thumbnail": "https://picsum.photos/seed/oWFojhMmyI/400/225?grayscale&blur=6",
+    "category": "home",
+    "price": 464.45,
+    "stock": 209,
+    "status": "in-stock",
+    "sales": 3917
+  },
+  {
+    "id": "ec4c9fd3-9901-4290-bf35-65454f0c1690",
+    "name": "Unbranded Marble Sausages",
+    "thumbnail": "https://picsum.photos/seed/yKJzndw/400/225?grayscale&blur=1",
+    "category": "electronics",
+    "price": 550.66,
+    "stock": 405,
+    "status": "out-of-stock",
+    "sales": 11916
+  },
+  {
+    "id": "3942bab3-b467-4f2b-ad24-ea7d9341b1b4",
+    "name": "Luxurious Bamboo Towels",
+    "thumbnail": "https://picsum.photos/seed/7i8qsdP6xf/400/225?grayscale&blur=9",
+    "category": "electronics",
+    "price": 502.22,
+    "stock": 153,
+    "status": "out-of-stock",
+    "sales": 346
+  },
+  {
+    "id": "35cfe2e5-5d81-408c-9630-05fb185d949e",
+    "name": "Handcrafted Granite Bacon",
+    "thumbnail": "https://picsum.photos/seed/suPQL0WWj/400/225?blur=4",
+    "category": "sports",
+    "price": 706.35,
+    "stock": 237,
+    "status": "out-of-stock",
+    "sales": 4045
+  },
+  {
+    "id": "423cdd89-4b64-409d-ac36-21d772fefdfb",
+    "name": "Incredible Steel Gloves",
+    "thumbnail": "https://picsum.photos/seed/07EEL2oZJ/400/225?blur=5",
+    "category": "home",
+    "price": 139.35,
+    "stock": 132,
+    "status": "out-of-stock",
+    "sales": 7967
+  },
+  {
+    "id": "e62e6eda-de74-41ac-a36f-acb89185c133",
+    "name": "Recycled Wooden Table",
+    "thumbnail": "https://picsum.photos/seed/cX60l4H42/400/225?blur=4",
+    "category": "sports",
+    "price": 48.19,
+    "stock": 152,
+    "status": "out-of-stock",
+    "sales": 11273
+  },
+  {
+    "id": "e9c5dc5b-cacf-4263-9398-f576be328a72",
+    "name": "Soft Plastic Chair",
+    "thumbnail": "https://picsum.photos/seed/zqK7k/400/225?blur=9",
+    "category": "electronics",
+    "price": 404.33,
+    "stock": 426,
+    "status": "out-of-stock",
+    "sales": 1058
+  },
+  {
+    "id": "fe529d6d-e767-4145-a3cb-65fba76ef920",
+    "name": "Handcrafted Ceramic Pants",
+    "thumbnail": "https://picsum.photos/seed/VNdGYT1R/400/225?blur=6",
+    "category": "home",
+    "price": 317.71,
+    "stock": 208,
+    "status": "out-of-stock",
+    "sales": 6319
+  },
+  {
+    "id": "83ec2ea5-e438-4f59-b838-805b33113f5d",
+    "name": "Fantastic Concrete Salad",
+    "thumbnail": "https://picsum.photos/seed/34fxBL/400/225?blur=7",
+    "category": "electronics",
+    "price": 204.28,
+    "stock": 497,
+    "status": "in-stock",
+    "sales": 3479
+  },
+  {
+    "id": "6a00599d-678b-4d97-a0a6-6fb488feb80c",
+    "name": "Bespoke Silk Shoes",
+    "thumbnail": "https://picsum.photos/seed/qIHByEKAX/400/225?blur=10",
+    "category": "sports",
+    "price": 461.39,
+    "stock": 381,
+    "status": "out-of-stock",
+    "sales": 1299
+  },
+  {
+    "id": "f9e5b315-bc66-48ec-a8b6-f916b0140fef",
+    "name": "Incredible Bronze Bike",
+    "thumbnail": "https://picsum.photos/seed/0erI49qZO/400/225?grayscale&blur=8",
+    "category": "electronics",
+    "price": 429.52,
+    "stock": 447,
+    "status": "out-of-stock",
+    "sales": 3059
+  },
+  {
+    "id": "02657d84-fe8c-49b2-80d7-c7ba529a470d",
+    "name": "Bespoke Granite Fish",
+    "thumbnail": "https://picsum.photos/seed/7W60exAtxw/400/225?blur=1",
+    "category": "sports",
+    "price": 188.02,
+    "stock": 83,
+    "status": "out-of-stock",
+    "sales": 1140
+  },
+  {
+    "id": "77b2f77a-67f5-44e3-8b7b-d12930510c1e",
+    "name": "Fantastic Bamboo Pizza",
+    "thumbnail": "https://picsum.photos/seed/tZakz3nC/400/225?blur=2",
+    "category": "home",
+    "price": 457.48,
+    "stock": 117,
+    "status": "in-stock",
+    "sales": 9097
+  },
+  {
+    "id": "2b00db6f-6e47-497e-b708-58cb1fd9423d",
+    "name": "Unbranded Bronze Shirt",
+    "thumbnail": "https://picsum.photos/seed/XUfrvfuQUo/400/225?blur=10",
+    "category": "apparel",
+    "price": 766.04,
+    "stock": 398,
+    "status": "low-stock",
+    "sales": 7349
+  },
+  {
+    "id": "0026f71a-1146-49c2-af0a-1ececec6f4c4",
+    "name": "Awesome Bronze Towels",
+    "thumbnail": "https://picsum.photos/seed/EMAcF1u/400/225",
+    "category": "electronics",
+    "price": 583.2,
+    "stock": 135,
+    "status": "out-of-stock",
+    "sales": 94
+  },
+  {
+    "id": "51855c92-96ab-4f8c-a6f5-93e3f908fa45",
+    "name": "Incredible Concrete Mouse",
+    "thumbnail": "https://picsum.photos/seed/Mup8Ftxbw/400/225?grayscale&blur=10",
+    "category": "electronics",
+    "price": 44.26,
+    "stock": 469,
+    "status": "out-of-stock",
+    "sales": 7107
+  },
+  {
+    "id": "00f34bb6-72ee-418e-b742-e3f4e438823b",
+    "name": "Recycled Granite Bike",
+    "thumbnail": "https://picsum.photos/seed/bWF67M8RgC/400/225?blur=5",
+    "category": "sports",
+    "price": 504.5,
+    "stock": 112,
+    "status": "out-of-stock",
+    "sales": 4010
+  },
+  {
+    "id": "58fec740-82f4-4e8b-a51c-fe2f097f3fa4",
+    "name": "Refined Cotton Shoes",
+    "thumbnail": "https://picsum.photos/seed/6YjBX/400/225?blur=10",
+    "category": "home",
+    "price": 354.19,
+    "stock": 437,
+    "status": "in-stock",
+    "sales": 1768
+  },
+  {
+    "id": "f07eb21c-c25b-4f02-b6de-bf680955f729",
+    "name": "Awesome Marble Pizza",
+    "thumbnail": "https://picsum.photos/seed/LABdCjwOc/400/225?blur=2",
+    "category": "home",
+    "price": 43.57,
+    "stock": 196,
+    "status": "low-stock",
+    "sales": 7749
+  },
+  {
+    "id": "2903d6ea-3883-4c3f-a5c3-ffa75ff798bb",
+    "name": "Practical Steel Salad",
+    "thumbnail": "https://picsum.photos/seed/QQ5hb/400/225?grayscale&blur=3",
+    "category": "electronics",
+    "price": 426.27,
+    "stock": 210,
+    "status": "low-stock",
+    "sales": 2920
+  },
+  {
+    "id": "2b69250b-5229-4b8d-8eda-8f4a972d89c5",
+    "name": "Oriental Steel Table",
+    "thumbnail": "https://picsum.photos/seed/PdFbOTcMv/400/225?blur=2",
+    "category": "apparel",
+    "price": 411.92,
+    "stock": 9,
+    "status": "out-of-stock",
+    "sales": 2910
+  },
+  {
+    "id": "c3798ccb-e2c8-4f8d-96fe-b084dffb3a5b",
+    "name": "Intelligent Concrete Chicken",
+    "thumbnail": "https://picsum.photos/seed/cPzzB/400/225",
+    "category": "home",
+    "price": 795.73,
+    "stock": 404,
+    "status": "out-of-stock",
+    "sales": 2464
+  },
+  {
+    "id": "b5d905a4-0a5c-48b0-a07f-8b171a5d5913",
+    "name": "Refined Aluminum Keyboard",
+    "thumbnail": "https://picsum.photos/seed/vNVpy/400/225?blur=10",
+    "category": "beauty",
+    "price": 568.96,
+    "stock": 166,
+    "status": "in-stock",
+    "sales": 9537
+  },
+  {
+    "id": "84f5dff9-ace5-42b5-ab11-6ee0635b6210",
+    "name": "Intelligent Metal Car",
+    "thumbnail": "https://picsum.photos/seed/bMCN4sQt66/400/225?grayscale&blur=4",
+    "category": "sports",
+    "price": 231.55,
+    "stock": 141,
+    "status": "in-stock",
+    "sales": 7107
+  },
+  {
+    "id": "647f89bf-3208-411e-af5b-17f233ff03c4",
+    "name": "Luxurious Gold Chair",
+    "thumbnail": "https://picsum.photos/seed/0wEmua/400/225?blur=8",
+    "category": "beauty",
+    "price": 173.78,
+    "stock": 182,
+    "status": "low-stock",
+    "sales": 2472
+  }
+]

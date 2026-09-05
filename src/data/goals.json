@@ -1,0 +1,322 @@
+[
+  {
+    "id": "8da9562e-bff4-4c57-bd14-dd4fcf1d4902",
+    "title": "Persistent tangible database",
+    "category": "sales",
+    "ownerName": "Elian Emard",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/11228164",
+    "progress": 35,
+    "targetDate": "2026-10-29T00:37:43.986Z",
+    "status": "completed"
+  },
+  {
+    "id": "409bc4ab-aeb8-4ed9-89c2-dc835cbdb442",
+    "title": "Versatile dedicated flexibility",
+    "category": "engineering",
+    "ownerName": "Bonnie Jones",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/88186756",
+    "progress": 0,
+    "targetDate": "2026-12-01T15:16:16.079Z",
+    "status": "missed"
+  },
+  {
+    "id": "5788079e-510b-4432-b733-61f0366cfb25",
+    "title": "Organized actuating focus group",
+    "category": "product",
+    "ownerName": "Ernestina Conroy",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/67114620",
+    "progress": 59,
+    "targetDate": "2026-10-14T11:42:20.689Z",
+    "status": "completed"
+  },
+  {
+    "id": "bccded06-a95e-478a-ada9-f26cdccb680c",
+    "title": "Reduced cloud-native generative AI",
+    "category": "product",
+    "ownerName": "Magdalen Denesik",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/40771536",
+    "progress": 1,
+    "targetDate": "2026-11-26T10:06:27.311Z",
+    "status": "at-risk"
+  },
+  {
+    "id": "98430eeb-37a1-4b2a-8b4d-6725fabe782e",
+    "title": "Universal stable moderator",
+    "category": "marketing",
+    "ownerName": "Theresia Bayer",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/8401036",
+    "progress": 38,
+    "targetDate": "2026-11-19T04:34:14.777Z",
+    "status": "missed"
+  },
+  {
+    "id": "f0d2175f-c027-460e-b99f-2718e5952e3f",
+    "title": "Virtual mobile function",
+    "category": "engineering",
+    "ownerName": "Alexie Gusikowski",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/57417013",
+    "progress": 78,
+    "targetDate": "2026-11-30T18:30:31.957Z",
+    "status": "at-risk"
+  },
+  {
+    "id": "21c4d7b5-4c86-41da-9bb5-76cc05f567ac",
+    "title": "Streamlined interactive support",
+    "category": "support",
+    "ownerName": "Pauline Veum-Prohaska",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/81190836",
+    "progress": 12,
+    "targetDate": "2026-10-23T21:47:43.523Z",
+    "status": "missed"
+  },
+  {
+    "id": "48f72ccb-3c39-4009-bf71-f9278c46c356",
+    "title": "Streamlined immersive matrix",
+    "category": "sales",
+    "ownerName": "Kyla Stroman",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/79661268",
+    "progress": 90,
+    "targetDate": "2026-09-26T01:25:58.055Z",
+    "status": "completed"
+  },
+  {
+    "id": "d577fa44-85eb-471d-a0bd-fac340958bbd",
+    "title": "Polarised content-based help-desk",
+    "category": "engineering",
+    "ownerName": "Maverick Connelly",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/48194326",
+    "progress": 45,
+    "targetDate": "2026-09-15T13:52:22.846Z",
+    "status": "at-risk"
+  },
+  {
+    "id": "b6311533-0cd5-4f89-a918-2302b5210b3e",
+    "title": "Enhanced needs-based internet solution",
+    "category": "sales",
+    "ownerName": "Keon Berge",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/45952798",
+    "progress": 74,
+    "targetDate": "2026-11-08T09:38:57.378Z",
+    "status": "missed"
+  },
+  {
+    "id": "1a481320-eaf6-4024-9f7a-82c00907251e",
+    "title": "Reverse-engineered incremental workforce",
+    "category": "marketing",
+    "ownerName": "Valerie Dach",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/37796547",
+    "progress": 79,
+    "targetDate": "2026-11-19T18:39:21.427Z",
+    "status": "missed"
+  },
+  {
+    "id": "30378ecf-bc55-4121-9343-866ae6f89366",
+    "title": "Managed coherent leverage",
+    "category": "engineering",
+    "ownerName": "Nikita Schaden",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/4455794",
+    "progress": 82,
+    "targetDate": "2026-11-29T04:57:24.000Z",
+    "status": "at-risk"
+  },
+  {
+    "id": "8d06224c-9a72-4688-9246-de0b0e1e7e0e",
+    "title": "Face to face high-level challenge",
+    "category": "sales",
+    "ownerName": "Merlin Cassin",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/20279624",
+    "progress": 2,
+    "targetDate": "2026-11-05T03:55:52.352Z",
+    "status": "at-risk"
+  },
+  {
+    "id": "189aa07b-45a6-4ae6-ab10-7e12165901df",
+    "title": "Configurable intangible structure",
+    "category": "product",
+    "ownerName": "Quinn Flatley",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/49595620",
+    "progress": 37,
+    "targetDate": "2026-10-04T14:56:15.191Z",
+    "status": "missed"
+  },
+  {
+    "id": "b8553793-59c7-43b8-8ee8-fa73a2ce4961",
+    "title": "Front-line methodical algorithm",
+    "category": "support",
+    "ownerName": "Jayne Wehner",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/20231162",
+    "progress": 8,
+    "targetDate": "2026-10-12T08:55:54.525Z",
+    "status": "completed"
+  },
+  {
+    "id": "4a7e32cd-207b-4c77-b4a3-71f1d9b5eeab",
+    "title": "Monitored optimizing flexibility",
+    "category": "marketing",
+    "ownerName": "Buddy Beatty-Schamberger",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/57968444",
+    "progress": 87,
+    "targetDate": "2026-11-28T10:39:59.367Z",
+    "status": "completed"
+  },
+  {
+    "id": "9aae8f88-4e46-4434-b1db-f4c91f37db77",
+    "title": "Reduced dedicated data-warehouse",
+    "category": "product",
+    "ownerName": "Jules Jerde",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/88715428",
+    "progress": 44,
+    "targetDate": "2026-10-17T16:39:03.660Z",
+    "status": "missed"
+  },
+  {
+    "id": "af5e37b4-4a96-421d-92e6-da4d1f9b0693",
+    "title": "Smart directional definition",
+    "category": "support",
+    "ownerName": "Sheila Abbott",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/33817860",
+    "progress": 78,
+    "targetDate": "2026-10-08T18:52:25.872Z",
+    "status": "at-risk"
+  },
+  {
+    "id": "40941dea-a515-413d-9a4f-402c99e1a61e",
+    "title": "Extended cohesive application",
+    "category": "engineering",
+    "ownerName": "Frida Spinka",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/78651611",
+    "progress": 17,
+    "targetDate": "2026-09-14T23:09:26.867Z",
+    "status": "on-track"
+  },
+  {
+    "id": "71eaad84-ef0e-4c8e-b97c-d10ee8cff9f0",
+    "title": "Multi-tiered hybrid parallelism",
+    "category": "product",
+    "ownerName": "Abigale Weissnat",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/46635367",
+    "progress": 90,
+    "targetDate": "2026-12-01T14:13:06.178Z",
+    "status": "on-track"
+  },
+  {
+    "id": "63c5c069-e5d0-4e94-bbf9-5ff70d1d15bb",
+    "title": "Immersive leading edge workforce",
+    "category": "support",
+    "ownerName": "Myriam Towne",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/88543087",
+    "progress": 31,
+    "targetDate": "2026-09-06T15:50:22.738Z",
+    "status": "at-risk"
+  },
+  {
+    "id": "acef0e30-4362-41b0-bfb0-8b02bae31229",
+    "title": "Optimized demand-driven local area network",
+    "category": "product",
+    "ownerName": "Sydney Hickle",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/67654469",
+    "progress": 60,
+    "targetDate": "2026-12-02T07:11:27.650Z",
+    "status": "on-track"
+  },
+  {
+    "id": "e8ea8507-0da1-4138-9245-37e8e622fedc",
+    "title": "Organized asynchronous concept",
+    "category": "marketing",
+    "ownerName": "Dayana Osinski",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/95342311",
+    "progress": 71,
+    "targetDate": "2026-10-24T09:03:12.659Z",
+    "status": "at-risk"
+  },
+  {
+    "id": "ee2fe267-4598-464a-a554-572462da66b4",
+    "title": "Future-proofed actuating middleware",
+    "category": "support",
+    "ownerName": "Vinnie Buckridge",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/15581114",
+    "progress": 26,
+    "targetDate": "2026-09-10T22:05:11.773Z",
+    "status": "missed"
+  },
+  {
+    "id": "21d34ec6-b4ca-4409-b30a-3699b186e757",
+    "title": "Universal logistical leverage",
+    "category": "support",
+    "ownerName": "Lilian Dicki",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/68063972",
+    "progress": 67,
+    "targetDate": "2026-11-23T18:24:56.200Z",
+    "status": "completed"
+  },
+  {
+    "id": "4358880c-1521-40c8-a4c8-8f27e6409249",
+    "title": "Phased systemic customer loyalty",
+    "category": "support",
+    "ownerName": "Delta Langosh",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/85310093",
+    "progress": 60,
+    "targetDate": "2026-09-21T05:18:37.515Z",
+    "status": "missed"
+  },
+  {
+    "id": "487844c1-4986-450d-808a-e4702b01b0ea",
+    "title": "Reduced global generative AI",
+    "category": "sales",
+    "ownerName": "Verda Rogahn",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/40290761",
+    "progress": 33,
+    "targetDate": "2026-10-28T01:22:16.609Z",
+    "status": "on-track"
+  },
+  {
+    "id": "b06b0c32-27dd-42cb-9678-2f982120c108",
+    "title": "User-friendly mobile complexity",
+    "category": "engineering",
+    "ownerName": "Jovany Konopelski",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/11396327",
+    "progress": 61,
+    "targetDate": "2026-11-18T03:46:24.117Z",
+    "status": "completed"
+  },
+  {
+    "id": "9c1d31d0-2e67-4a08-92db-d3136b84fbdf",
+    "title": "Cross-platform impactful hierarchy",
+    "category": "marketing",
+    "ownerName": "Max VonRueden",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/47945926",
+    "progress": 86,
+    "targetDate": "2026-10-30T06:31:15.131Z",
+    "status": "completed"
+  },
+  {
+    "id": "fe02018e-a61b-4137-928f-41ffc50dcde8",
+    "title": "Public-key dedicated frame",
+    "category": "marketing",
+    "ownerName": "Penny Zieme",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/53066828",
+    "progress": 43,
+    "targetDate": "2026-09-21T18:35:17.605Z",
+    "status": "missed"
+  },
+  {
+    "id": "a6866069-bd4d-4395-81a9-c3761683bd82",
+    "title": "Advanced attitude-oriented installation",
+    "category": "support",
+    "ownerName": "Lolita Stehr",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/92039095",
+    "progress": 44,
+    "targetDate": "2026-09-30T21:04:37.741Z",
+    "status": "on-track"
+  },
+  {
+    "id": "f8024c5d-8644-4021-8c79-9cf31cbb0a61",
+    "title": "Face to face zero defect database",
+    "category": "marketing",
+    "ownerName": "Aurelia Brekke",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/62343952",
+    "progress": 30,
+    "targetDate": "2026-10-03T15:07:46.592Z",
+    "status": "completed"
+  }
+]

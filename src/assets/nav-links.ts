@@ -1,15 +1,12 @@
 import {
+  CalendarDays,
+  FolderKanban,
+  Grid2x2,
   HelpCircle,
-  LayoutPanelTop,
-  Receipt,
-  Settings,
-  Settings2,
-  Settings2Icon,
+  MessageSquare,
   SettingsIcon,
-  Tv,
-  Tv2,
-  Tv2Icon,
-  TvMinimal,
+  ShoppingBag,
+  Target,
 } from "lucide-react";
 import {
   IconChecklist,
@@ -39,7 +36,7 @@ export const navLinks: MainNavLinkType[] = [
         url: "/dashboard",
       },
       {
-        name: "User",
+        name: "Users",
         icon: IconUser,
         url: "/users",
       },
@@ -49,112 +46,34 @@ export const navLinks: MainNavLinkType[] = [
         url: "/tasks",
       },
       {
-        name: "Transaction",
-        icon: Receipt,
-        url: "/transactions",
-      },
-    ],
-  },
-  {
-    title: "Content",
-    mainNavGroup: [
-      {
-        name: "Movie",
-        icon: Tv2,
-        url: "/movie",
-        navGroup: [
-          {
-            name: "Banner",
-            icon: Settings2,
-            url: "/movie/banner",
-          },
-          {
-            name: "Display",
-            icon: Settings2Icon,
-            url: "/movie/display",
-          },
-          {
-            name: "Record",
-            icon: Settings2Icon,
-            url: "/movie/record",
-          },
-        ],
+        name: "Goals",
+        icon: Target,
+        url: "/goals",
       },
       {
-        name: "Series",
-        icon: Tv,
-        url: "/series",
-        navGroup: [
-          {
-            name: "Banner",
-            icon: Settings2,
-            url: "/series/banner",
-          },
-          {
-            name: "Display",
-            icon: Settings2Icon,
-            url: "/series/display",
-          },
-          {
-            name: "Record",
-            icon: Settings2Icon,
-            url: "/series/record",
-          },
-        ],
+        name: "App",
+        icon: Grid2x2,
+        url: "/app",
       },
       {
-        name: "Program",
-        icon: Tv2Icon,
-        url: "/programs",
-        navGroup: [
-          {
-            name: "Banner",
-            icon: Settings2,
-            url: "/programs/banner",
-          },
-          {
-            name: "Display",
-            icon: Settings2Icon,
-            url: "/programs/display",
-          },
-          {
-            name: "Record",
-            icon: Settings2Icon,
-            url: "/programs/record",
-          },
-        ],
+        name: "Chat",
+        icon: MessageSquare,
+        url: "/chat",
       },
       {
-        name: "Short Video",
-        icon: TvMinimal,
-        url: "/short-video",
-        navGroup: [
-          {
-            name: "Banner",
-            icon: Settings2,
-            url: "/short-video/banner",
-          },
-          {
-            name: "Display",
-            icon: Settings2Icon,
-            url: "/short-video/display",
-          },
-          {
-            name: "Record",
-            icon: Settings2Icon,
-            url: "/short-video/record",
-          },
-        ],
+        name: "Calendar",
+        icon: CalendarDays,
+        url: "/calendar",
       },
       {
-        name: "Genre",
-        icon: LayoutPanelTop,
-        url: "/genres",
+        name: "Products",
+        icon: ShoppingBag,
+        url: "/products",
       },
       {
-        name: "Tags",
-        icon: Settings,
-        url: "/tags",
+        name: "Projects",
+        icon: FolderKanban,
+        url: "/projects",
       },
     ],
   },

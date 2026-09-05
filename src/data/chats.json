@@ -1,0 +1,362 @@
+[
+  {
+    "id": "2c5223d5-7144-483b-81aa-0aaac045fcbf",
+    "contactName": "Jacklyn Senger",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/14029190",
+    "lastMessage": "Amet conturbo surculus verumtamen administratio amissio commodo calcar bellicus considero.",
+    "unreadCount": 1,
+    "channel": "team",
+    "status": "online",
+    "lastActiveAt": "2026-09-03T22:51:29.174Z"
+  },
+  {
+    "id": "dd854647-1b02-4388-995f-45fbc1302b0f",
+    "contactName": "Horace Gleichner",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/28303365",
+    "lastMessage": "Angulus acies cibus defero desolo sumo fuga colo admiratio neque.",
+    "unreadCount": 1,
+    "channel": "team",
+    "status": "offline",
+    "lastActiveAt": "2026-08-22T14:32:56.394Z"
+  },
+  {
+    "id": "4c7be4a7-08bb-4393-8cc3-b788f05bef71",
+    "contactName": "Adalberto Jacobs",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/46435512",
+    "lastMessage": "Ulterius alo consequatur cauda aestas quasi.",
+    "unreadCount": 3,
+    "channel": "direct",
+    "status": "online",
+    "lastActiveAt": "2026-08-27T21:12:45.772Z"
+  },
+  {
+    "id": "68f904fe-a3d3-4c60-b674-6cf353143fcd",
+    "contactName": "Lucinda MacGyver",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/16023261",
+    "lastMessage": "Astrum excepturi atrocitas inventore vicinus abbas delectatio desparatus triduana.",
+    "unreadCount": 6,
+    "channel": "direct",
+    "status": "online",
+    "lastActiveAt": "2026-08-31T19:16:11.322Z"
+  },
+  {
+    "id": "fcc6232f-00df-439c-b9e3-1060543ccec3",
+    "contactName": "Lorenz Herman",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/42319064",
+    "lastMessage": "Ascit carcer corrumpo coepi demum.",
+    "unreadCount": 7,
+    "channel": "support",
+    "status": "offline",
+    "lastActiveAt": "2026-08-28T21:09:47.752Z"
+  },
+  {
+    "id": "e0a59674-0138-4503-ab49-94fd0908f55b",
+    "contactName": "Jimmie Olson",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/68875991",
+    "lastMessage": "Spoliatio creator laborum vindico.",
+    "unreadCount": 1,
+    "channel": "direct",
+    "status": "offline",
+    "lastActiveAt": "2026-08-29T14:07:16.779Z"
+  },
+  {
+    "id": "72a4bb89-8615-4200-9f0d-313574608512",
+    "contactName": "Daphnee Baumbach",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/33094042",
+    "lastMessage": "Auditor suscipio coniuratio delectus odio cedo sursum tremo coerceo acer.",
+    "unreadCount": 8,
+    "channel": "team",
+    "status": "away",
+    "lastActiveAt": "2026-08-28T08:58:41.541Z"
+  },
+  {
+    "id": "de047dee-ed35-4811-bc66-b2207a91a524",
+    "contactName": "Antonietta Wunsch",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/20864193",
+    "lastMessage": "Vulnero benevolentia sonitus quibusdam strues.",
+    "unreadCount": 6,
+    "channel": "direct",
+    "status": "online",
+    "lastActiveAt": "2026-08-25T17:28:04.622Z"
+  },
+  {
+    "id": "f06ca978-4f1e-49ad-ba36-0f8f4613bc34",
+    "contactName": "General Lesch",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/90245232",
+    "lastMessage": "Vesper non carmen tot solvo texo tutamen.",
+    "unreadCount": 8,
+    "channel": "support",
+    "status": "online",
+    "lastActiveAt": "2026-09-02T14:23:07.417Z"
+  },
+  {
+    "id": "565dfae6-9a7c-449b-a5c7-1a876c3af721",
+    "contactName": "Okey Nolan",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/65739543",
+    "lastMessage": "Crepusculum pax autem via et dicta fugit verto acceptus combibo.",
+    "unreadCount": 4,
+    "channel": "support",
+    "status": "away",
+    "lastActiveAt": "2026-08-24T21:12:09.810Z"
+  },
+  {
+    "id": "c7d4be51-0f2a-4276-bcca-e62b9a9c237f",
+    "contactName": "Otha Rutherford",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/12214426",
+    "lastMessage": "Depromo stultus claustrum utique.",
+    "unreadCount": 7,
+    "channel": "support",
+    "status": "online",
+    "lastActiveAt": "2026-08-24T13:58:25.780Z"
+  },
+  {
+    "id": "4ae8c770-5300-4c60-a89a-d75516801cbb",
+    "contactName": "Kayleigh Kunze",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/71211577",
+    "lastMessage": "Distinctio aperiam decet clibanus pecco consuasor.",
+    "unreadCount": 0,
+    "channel": "team",
+    "status": "away",
+    "lastActiveAt": "2026-09-03T14:00:40.860Z"
+  },
+  {
+    "id": "a3354927-153e-4ca4-a72d-93997ca2ad9d",
+    "contactName": "Leola Mraz",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/45157172",
+    "lastMessage": "Dignissimos deficio compello vindico depono vulnus vulgus.",
+    "unreadCount": 6,
+    "channel": "support",
+    "status": "offline",
+    "lastActiveAt": "2026-08-24T06:23:26.607Z"
+  },
+  {
+    "id": "558863f6-4435-4665-b5f4-709ed3e3d1f3",
+    "contactName": "Madison Powlowski",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/6435856",
+    "lastMessage": "Vitae tempus territo campana.",
+    "unreadCount": 10,
+    "channel": "direct",
+    "status": "offline",
+    "lastActiveAt": "2026-08-23T14:59:11.274Z"
+  },
+  {
+    "id": "3a47fbcb-2f12-44aa-8163-028e45363aea",
+    "contactName": "Jesse Powlowski",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/81446029",
+    "lastMessage": "Antea tardus deludo arx arcus voluptas sordeo aliqua nostrum aestus.",
+    "unreadCount": 7,
+    "channel": "support",
+    "status": "online",
+    "lastActiveAt": "2026-08-22T09:30:17.996Z"
+  },
+  {
+    "id": "7de04b2c-c108-4798-87d1-6783ea5f6bcf",
+    "contactName": "Jimmie Champlin",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/18131524",
+    "lastMessage": "Textus custodia amo adhuc autus supplanto advoco necessitatibus aegrus.",
+    "unreadCount": 12,
+    "channel": "direct",
+    "status": "offline",
+    "lastActiveAt": "2026-08-31T08:31:31.070Z"
+  },
+  {
+    "id": "7c5c9085-ca3f-43e0-b405-693cf8d00121",
+    "contactName": "Laurine Schmitt",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/65262311",
+    "lastMessage": "Audacia expedita facere aufero decet ultra antea corrumpo.",
+    "unreadCount": 7,
+    "channel": "support",
+    "status": "away",
+    "lastActiveAt": "2026-08-22T23:58:34.453Z"
+  },
+  {
+    "id": "72f483c2-5e78-4ee7-8658-1dedc8d9f0dc",
+    "contactName": "Albertha Sipes",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/87469242",
+    "lastMessage": "Trado annus demergo deporto consectetur atavus conforto admoveo.",
+    "unreadCount": 9,
+    "channel": "direct",
+    "status": "online",
+    "lastActiveAt": "2026-09-01T22:54:35.671Z"
+  },
+  {
+    "id": "29e3e356-60ae-41a0-9bfc-ad361d489b0e",
+    "contactName": "Obie Kuvalis",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/93935288",
+    "lastMessage": "Earum admoveo victus quisquam creta combibo vesper tertius.",
+    "unreadCount": 9,
+    "channel": "direct",
+    "status": "online",
+    "lastActiveAt": "2026-09-03T17:10:02.017Z"
+  },
+  {
+    "id": "72050ec0-cea7-4251-8329-9afbc5273ee4",
+    "contactName": "Monty Walsh",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/37343344",
+    "lastMessage": "Error acquiro aro bibo vinculum tribuo vesper torqueo.",
+    "unreadCount": 2,
+    "channel": "team",
+    "status": "away",
+    "lastActiveAt": "2026-08-29T20:51:29.673Z"
+  },
+  {
+    "id": "a52b7a08-cb55-4786-84ea-44858fe37a8e",
+    "contactName": "Taurean Moore",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/81535505",
+    "lastMessage": "Quia derelinquo valens talis ceno subito.",
+    "unreadCount": 7,
+    "channel": "direct",
+    "status": "online",
+    "lastActiveAt": "2026-09-04T10:26:05.924Z"
+  },
+  {
+    "id": "f95fb210-fc04-4c90-ab84-6499cff3a048",
+    "contactName": "Merritt Flatley",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/74504875",
+    "lastMessage": "Currus sub adimpleo super depopulo.",
+    "unreadCount": 5,
+    "channel": "support",
+    "status": "online",
+    "lastActiveAt": "2026-08-24T13:54:29.129Z"
+  },
+  {
+    "id": "6d826b69-da91-4f0d-aefa-15a70f235a0f",
+    "contactName": "Emilie Weimann",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/50835804",
+    "lastMessage": "Supra officia suffragium adicio xiphias minima dapifer deinde decumbo viridis.",
+    "unreadCount": 11,
+    "channel": "direct",
+    "status": "away",
+    "lastActiveAt": "2026-09-01T05:15:49.954Z"
+  },
+  {
+    "id": "c5a75701-a56e-4b2d-9051-cd7dc1c3ca4d",
+    "contactName": "Patience Purdy",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/17364519",
+    "lastMessage": "Denuncio titulus similique antea versus.",
+    "unreadCount": 10,
+    "channel": "support",
+    "status": "away",
+    "lastActiveAt": "2026-08-27T16:01:04.073Z"
+  },
+  {
+    "id": "a779a7d9-3364-4ef9-a2ff-5b62868df5f3",
+    "contactName": "Theodore Fahey",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/61168700",
+    "lastMessage": "Tener curto una averto quia.",
+    "unreadCount": 2,
+    "channel": "team",
+    "status": "away",
+    "lastActiveAt": "2026-08-27T21:42:21.217Z"
+  },
+  {
+    "id": "7dc7ba5b-573a-4fbb-83a9-ba672fd940d9",
+    "contactName": "Marie Hansen",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/48013473",
+    "lastMessage": "Utilis officia non delinquo.",
+    "unreadCount": 4,
+    "channel": "team",
+    "status": "offline",
+    "lastActiveAt": "2026-09-01T23:13:08.361Z"
+  },
+  {
+    "id": "751e7bba-5508-4321-92ef-1a9b20dc2456",
+    "contactName": "Jacynthe Howell",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/30446816",
+    "lastMessage": "Curso venio thymum tabesco caelestis deprimo molestiae somniculosus.",
+    "unreadCount": 5,
+    "channel": "support",
+    "status": "away",
+    "lastActiveAt": "2026-08-23T21:07:05.741Z"
+  },
+  {
+    "id": "c0040007-f160-4166-a9f4-e36796e9c95c",
+    "contactName": "Derek Mertz",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/5257013",
+    "lastMessage": "Urbs vinitor tametsi synagoga ratione denuo totidem crur quasi cado.",
+    "unreadCount": 6,
+    "channel": "team",
+    "status": "away",
+    "lastActiveAt": "2026-08-26T18:13:46.464Z"
+  },
+  {
+    "id": "ba1c7c5a-6d31-4324-a097-16062ab35c55",
+    "contactName": "Linnea Marks",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/17908527",
+    "lastMessage": "Vigilo fugit stillicidium averto anser textus abduco arbitro caute.",
+    "unreadCount": 2,
+    "channel": "direct",
+    "status": "online",
+    "lastActiveAt": "2026-08-29T14:01:33.053Z"
+  },
+  {
+    "id": "30ef7b65-53da-43a8-acee-33c155bb76fc",
+    "contactName": "Jose Hettinger",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/52655165",
+    "lastMessage": "Aegre dolorum alias derelinquo.",
+    "unreadCount": 0,
+    "channel": "team",
+    "status": "offline",
+    "lastActiveAt": "2026-08-23T10:43:33.390Z"
+  },
+  {
+    "id": "e71b045e-3119-4cc3-8e05-821efd3ca188",
+    "contactName": "Jevon Wilderman",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/90326840",
+    "lastMessage": "Careo theologus ex averto tenus in solium comburo.",
+    "unreadCount": 7,
+    "channel": "team",
+    "status": "offline",
+    "lastActiveAt": "2026-09-02T22:18:34.928Z"
+  },
+  {
+    "id": "5bbcfd74-02d9-4a05-9a3d-08de8317f55b",
+    "contactName": "Anya Kuhic",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/94759845",
+    "lastMessage": "Thymum admiratio claustrum tenuis volva delectus vulnero sublime ustilo tego.",
+    "unreadCount": 1,
+    "channel": "direct",
+    "status": "offline",
+    "lastActiveAt": "2026-08-30T01:10:06.924Z"
+  },
+  {
+    "id": "7b5a0eb6-0a06-4b4d-801e-723fcfa328e2",
+    "contactName": "Flavie Moore",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/97308513",
+    "lastMessage": "Tamdiu corrupti somnus adsum stillicidium.",
+    "unreadCount": 6,
+    "channel": "team",
+    "status": "offline",
+    "lastActiveAt": "2026-08-31T06:01:10.391Z"
+  },
+  {
+    "id": "dfc6f09a-305e-4f25-9480-2f3ac75f998c",
+    "contactName": "Jay Aufderhar",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/61281760",
+    "lastMessage": "Celo delectatio exercitationem admiratio dedico patrocinor.",
+    "unreadCount": 11,
+    "channel": "support",
+    "status": "away",
+    "lastActiveAt": "2026-08-29T17:34:02.961Z"
+  },
+  {
+    "id": "0179dc9c-de24-4d35-a50b-f47c962ed6d2",
+    "contactName": "Aisha West",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/53800082",
+    "lastMessage": "Demoror facilis conqueror temporibus vilitas.",
+    "unreadCount": 1,
+    "channel": "support",
+    "status": "offline",
+    "lastActiveAt": "2026-09-03T04:54:38.849Z"
+  },
+  {
+    "id": "a0689a77-26e4-428e-b6df-a6d0848d3bf4",
+    "contactName": "Augustus Zulauf",
+    "contactAvatar": "https://avatars.githubusercontent.com/u/15488657",
+    "lastMessage": "Advoco ancilla conservo apparatus adamo votum acerbitas defetiscor.",
+    "unreadCount": 7,
+    "channel": "support",
+    "status": "away",
+    "lastActiveAt": "2026-09-03T23:48:05.814Z"
+  }
+]

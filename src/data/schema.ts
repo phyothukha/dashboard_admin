@@ -26,65 +26,79 @@ export const userSchema = z.object({
 
 export type UserRow = z.infer<typeof userSchema>;
 
-export const contentItemSchema = z.object({
+export const goalSchema = z.object({
   id: z.string(),
   title: z.string(),
-  thumbnail: z.string(),
-  genre: z.string(),
+  category: z.string(),
+  ownerName: z.string(),
+  ownerAvatar: z.string(),
+  progress: z.number(),
+  targetDate: z.string(),
   status: z.string(),
-  views: z.number(),
-  duration: z.string(),
-  releaseDate: z.string(),
 });
 
-export type ContentItem = z.infer<typeof contentItemSchema>;
+export type Goal = z.infer<typeof goalSchema>;
 
-export const bannerItemSchema = z.object({
+export const appSchema = z.object({
   id: z.string(),
-  title: z.string(),
-  image: z.string(),
-  linkTo: z.string(),
+  name: z.string(),
+  icon: z.string(),
+  category: z.string(),
+  developer: z.string(),
   status: z.string(),
-  position: z.number(),
-  startDate: z.string(),
-  endDate: z.string(),
+  rating: z.number(),
+  installs: z.number(),
 });
 
-export type BannerItem = z.infer<typeof bannerItemSchema>;
+export type App = z.infer<typeof appSchema>;
 
-export const displayItemSchema = z.object({
+export const chatSchema = z.object({
   id: z.string(),
-  section: z.string(),
+  contactName: z.string(),
+  contactAvatar: z.string(),
+  lastMessage: z.string(),
+  unreadCount: z.number(),
+  channel: z.string(),
+  status: z.string(),
+  lastActiveAt: z.string(),
+});
+
+export type Chat = z.infer<typeof chatSchema>;
+
+export const calendarEventSchema = z.object({
+  id: z.string(),
   title: z.string(),
-  thumbnail: z.string(),
-  position: z.number(),
-  visible: z.boolean(),
-  updatedAt: z.string(),
-});
-
-export type DisplayItem = z.infer<typeof displayItemSchema>;
-
-export const recordItemSchema = z.object({
-  id: z.string(),
-  title: z.string(),
-  action: z.string(),
-  actor: z.string(),
-  actorAvatar: z.string(),
-  createdAt: z.string(),
-});
-
-export type RecordItem = z.infer<typeof recordItemSchema>;
-
-export const transactionSchema = z.object({
-  id: z.string(),
-  reference: z.string(),
-  customer: z.string(),
-  customerAvatar: z.string(),
   type: z.string(),
-  method: z.string(),
+  date: z.string(),
+  attendees: z.number(),
+  location: z.string(),
   status: z.string(),
-  amount: z.number(),
-  createdAt: z.string(),
 });
 
-export type Transaction = z.infer<typeof transactionSchema>;
+export type CalendarEvent = z.infer<typeof calendarEventSchema>;
+
+export const productSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  thumbnail: z.string(),
+  category: z.string(),
+  price: z.number(),
+  stock: z.number(),
+  status: z.string(),
+  sales: z.number(),
+});
+
+export type Product = z.infer<typeof productSchema>;
+
+export const projectSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  ownerName: z.string(),
+  ownerAvatar: z.string(),
+  status: z.string(),
+  progress: z.number(),
+  dueDate: z.string(),
+  teamSize: z.number(),
+});
+
+export type Project = z.infer<typeof projectSchema>;
