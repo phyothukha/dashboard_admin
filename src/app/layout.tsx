@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import { NavigationEvents } from "@/components/navigation-events";
 import { geistSans, geistMono, robotoFlex, roboto } from "@/lib/fonts";
 import { Providers } from "./providers";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: {
@@ -51,6 +52,7 @@ export default function RootLayout({
       >
         <NavigationEvents />
         <Providers>{children}</Providers>
+        <SpeedInsights />
       </body>
     </html>
   );
