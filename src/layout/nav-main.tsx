@@ -69,12 +69,15 @@ export function NavMain({
                     active
                       ? "text-primary font-medium"
                       : "text-muted-foreground hover:bg-muted hover:text-foreground",
-                    "relative h-11 text-[15px] px-3.5 py-3 gap-3 flex items-center rounded-lg transition-colors",
+                    "relative -ml-2 h-11 w-[calc(100%+0.5rem)] rounded-r-lg rounded-l-none py-3 pr-3.5 pl-[1.375rem] text-[15px] gap-3 flex items-center transition-colors",
+                    "group-data-[collapsible=icon]:size-11! group-data-[collapsible=icon]:justify-center group-data-[collapsible=icon]:p-0!",
                   )}
                 >
-                  <Link href={item.url}>
+                  <Link href={item.url} onClick={() => setOpenMobile(false)}>
                     {item.icon && <item.icon className="size-5 shrink-0" />}
-                    <span>{item.name}</span>
+                    <span className="group-data-[collapsible=icon]:hidden">
+                      {item.name}
+                    </span>
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
@@ -98,12 +101,15 @@ export function NavMain({
                         active
                           ? "text-primary font-medium"
                           : "text-muted-foreground hover:bg-muted hover:text-foreground",
-                        "relative h-11 text-[15px] px-3.5 py-3 gap-3 flex items-center rounded-lg transition-colors",
+                        "relative -ml-2 h-11 w-[calc(100%+0.5rem)] rounded-r-lg rounded-l-none py-3 pr-3.5 pl-[1.375rem] text-[15px] gap-3 flex items-center transition-colors",
+                        "group-data-[collapsible=icon]:size-11! group-data-[collapsible=icon]:justify-center group-data-[collapsible=icon]:p-0!",
                       )}
                     >
                       {item.icon && <item.icon className="size-5 shrink-0" />}
-                      <span>{item.name}</span>
-                      <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />
+                      <span className="group-data-[collapsible=icon]:hidden">
+                        {item.name}
+                      </span>
+                      <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90 group-data-[collapsible=icon]:hidden" />
                     </SidebarMenuButton>
                   </CollapsibleTrigger>
                   <CollapsibleContent className="CollapsibleContent">
@@ -166,7 +172,7 @@ export function NavMain({
                         "text-[14px] px-3 py-2 flex items-center gap-2 rounded-md transition-colors",
                       )}
                     >
-                      <Link href={sub.url}>
+                      <Link href={sub.url} onClick={() => setOpenMobile(false)}>
                         {sub.icon && <sub.icon className="w-4 h-4" />}
                         <span className="max-w-52 text-wrap">{sub.name}</span>
                       </Link>

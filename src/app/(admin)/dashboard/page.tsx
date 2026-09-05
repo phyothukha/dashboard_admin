@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import {
   Calendar,
   Download,
@@ -22,6 +23,11 @@ import { BestSellingProducts } from "./components/best-selling-products";
 import { MostDayActive } from "./components/most-day-active";
 import { RepeatCustomerRate } from "./components/repeat-customer-rate";
 import { AiAssistantCard } from "./components/ai-assistant-card";
+
+export const metadata: Metadata = {
+  title: "Dashboard",
+  description: "Overview of key metrics, sales, and activity at a glance.",
+};
 
 const stats = [
   {

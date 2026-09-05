@@ -1,9 +1,7 @@
 "use client";
 
 import * as React from "react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { Search, Zap } from "lucide-react";
+import { Zap } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -17,17 +15,15 @@ import {
   useSidebar,
 } from "@/components/ui/sidebar";
 import { NavMain } from "./nav-main";
-import { NavActiveIndicator } from "./nav-active-indicator";
 import { NavUser } from "./nav-user";
-import { bottomNavLinks, navLinks } from "@/assets/nav-links";
-import { cn } from "@/lib/utils";
+import { navLinks } from "@/assets/nav-links";
 
 // This is sample data.
 const data = {
   user: {
-    name: "shadcn",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
+    name: "Phyrous Admin",
+    email: "admin@phyrous.com",
+    avatar: "",
   },
 };
 
@@ -45,7 +41,7 @@ function BrandHeader() {
           </div>
           {state === "expanded" && (
             <span className="truncate text-lg font-bold tracking-tight">
-              Hinthar
+              Phyrous
             </span>
           )}
         </SidebarMenuButton>
@@ -57,64 +53,11 @@ function BrandHeader() {
   );
 }
 
-function SidebarSearch() {
-  const { state } = useSidebar();
-  if (state !== "expanded") return null;
-
-  return (
-    <div className="relative px-2 pb-1">
-      <Search className="pointer-events-none absolute left-4.5 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
-      <input
-        type="text"
-        placeholder="Search"
-        className="h-9 w-full rounded-lg border bg-muted/40 pl-9 pr-12 text-sm outline-none placeholder:text-muted-foreground focus-visible:ring-[3px] focus-visible:ring-ring/50"
-      />
-      <kbd className="pointer-events-none absolute right-4.5 top-1/2 -translate-y-1/2 rounded border bg-background px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground">
-        ⌘K
-      </kbd>
-    </div>
-  );
-}
-
-function BottomNav() {
-  const { state } = useSidebar();
-  const href = usePathname();
-
-  return (
-    <SidebarMenu className="gap-1.5">
-      {bottomNavLinks.map((item) => {
-        const active = href === item.url || href.split("?")[0] === item.url;
-        return (
-          <SidebarMenuItem key={item.name}>
-            {active && <NavActiveIndicator />}
-            <SidebarMenuButton
-              asChild
-              tooltip={state === "collapsed" ? item.name : undefined}
-              className={cn(
-                active
-                  ? "text-primary font-medium"
-                  : "text-muted-foreground hover:bg-muted hover:text-foreground",
-                "relative h-11 text-[15px] px-3.5 py-3 gap-3 flex items-center rounded-lg transition-colors",
-              )}
-            >
-              <Link href={item.url}>
-                <item.icon className="size-5 shrink-0" />
-                <span>{item.name}</span>
-              </Link>
-            </SidebarMenuButton>
-          </SidebarMenuItem>
-        );
-      })}
-    </SidebarMenu>
-  );
-}
-
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
         <BrandHeader />
-        <SidebarSearch />
       </SidebarHeader>
       <SidebarContent>
         {navLinks.map((nav, index) => (
@@ -122,7 +65,6 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         ))}
       </SidebarContent>
       <SidebarFooter className="gap-3">
-        <BottomNav />
         <NavUser user={data.user} />
       </SidebarFooter>
       <SidebarRail />

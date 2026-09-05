@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import React from "react";
 import { Bell, Lock, Mail, Shield } from "lucide-react";
 
@@ -12,6 +13,11 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+
+export const metadata: Metadata = {
+  title: "Settings",
+  description: "Manage your account settings and preferences.",
+};
 
 const notificationPreferences = [
   {
@@ -36,7 +42,7 @@ const notificationPreferences = [
 
 const SettingPage = () => {
   return (
-    <main className="w-full h-full flex-1 flex-col space-y-5 mt-5">
+    <main className="w-full h-full flex-1 flex-col space-y-5">
       <div>
         <h2 className="text-2xl font-bold tracking-tight">Settings</h2>
         <p className="text-muted-foreground">

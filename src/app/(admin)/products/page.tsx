@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import React from "react";
 import { z } from "zod";
 import { productSchema } from "@/data/schema";
 import products from "@/data/products.json";
 import { ProductsTable } from "./components/products-table";
+
+export const metadata: Metadata = {
+  title: "Products",
+  description: "Manage your product catalog and inventory.",
+};
 
 async function getProducts() {
   return z.array(productSchema).parse(products);
@@ -12,7 +18,7 @@ const ProductsPage = async () => {
   const data = await getProducts();
 
   return (
-    <main className="w-full h-full flex-1 flex-col space-y-5 mt-5">
+    <main className="w-full h-full flex-1 flex-col space-y-5">
       <div>
         <h2 className="text-2xl font-bold tracking-tight">Products</h2>
         <p className="text-muted-foreground">

@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import { promises as fs } from "fs";
 import path from "path";
 import { z } from "zod";
 import { taskSchema } from "@/data/schema";
 import { TasksTable } from "./components/tasks-table";
+
+export const metadata: Metadata = {
+  title: "Tasks",
+  description: "Track and manage your team's tasks for the month.",
+};
 
 // Simulate a database read for tasks.
 async function getTasks() {
@@ -19,7 +25,7 @@ const TasksPage = async () => {
   const tasks = await getTasks();
 
   return (
-    <main className=" w-full h-full flex-1 flex-col space-y-5 mt-5 ">
+    <main className="w-full h-full flex-1 flex-col space-y-5">
       <div className="flex items-center justify-between space-y-2">
         <div>
           <h2 className="text-2xl font-bold tracking-tight">All Tasks</h2>

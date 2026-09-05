@@ -75,19 +75,16 @@ export const navLinks: MainNavLinkType[] = [
         icon: FolderKanban,
         url: "/projects",
       },
+      {
+        name: "Help Center",
+        icon: HelpCircle,
+        url: "/help",
+      },
+      {
+        name: "Settings",
+        icon: SettingsIcon,
+        url: "/settings",
+      },
     ],
-  },
-];
-
-export const bottomNavLinks: NavLinkType[] = [
-  {
-    name: "Help Center",
-    icon: HelpCircle,
-    url: "/help",
-  },
-  {
-    name: "Settings",
-    icon: SettingsIcon,
-    url: "/settings",
   },
 ];
