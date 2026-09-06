@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import { NavigationEvents } from "@/components/navigation-events";
 import { geistSans, geistMono, robotoFlex, roboto } from "@/lib/fonts";
 import { Providers } from "./providers";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: {
@@ -51,6 +52,7 @@ export default function RootLayout({
       >
         <NavigationEvents />
         <Providers>{children}</Providers>
+        <Analytics />
       </body>
     </html>
   );
